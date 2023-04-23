@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
+
 :root {
   --primary-color: #2C3E50; 
   --secondary-color: #9f9f9f; 
-  --accent-color: #4c5156; 
+  --accent-color: #cc4337; 
   --border-color: #454e57; 
   --text-color: #868E96;
   --subtitle-color: #50502c;
 }
 
 
+
+
 .page-body{
   display: flex;
   flex-direction: row;
-
 }
 
 .content-container{
@@ -27,13 +30,25 @@ p{
   line-height: 1.5;
   margin-bottom: 20px;
 }
+a{
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-size:1.17em;
+  color: var(--accent-color);
+}
 
 h1{
   margin-bottom: 0px;
   padding-bottom: 0px;
-  color: var(--accent-color);
+  color: var(--primary-color);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 4px;
+
 }
 
 h3{
   color: var(--subtitle-color);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+
 }

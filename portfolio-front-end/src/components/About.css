@@ -24,7 +24,7 @@
 
 .about-links-container a{
     text-decoration: none;
-    color: var(--subtitle-color);
+    color: var(--accent-color);
     font-weight:600;
 }
 

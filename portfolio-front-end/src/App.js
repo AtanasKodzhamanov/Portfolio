@@ -10,17 +10,17 @@ import CV from './components/CV';
 
 function App() {
   return (
-    <div>
-      <SideHeader>
-
-      </SideHeader>
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/cv" element={<CV />} />
-      </Routes>
+    <div className="page-body">
+      <SideHeader />
+      <div className="content-container">
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/cv" element={<CV />} />
+        </Routes>
+      </div>
     </div>
   );
 }

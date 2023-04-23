@@ -1,0 +1,45 @@
+
+  
+  .navbar {
+    padding: 40px;
+    background-color: var(--primary-color);
+    height: 100vh;
+    width: 200px;
+  }
+  
+  .side-header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .side-header-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .portrait img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--border-color);
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .side-header-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .side-header-links a:hover {
+    color: white;
+  }
+  
+
+ 

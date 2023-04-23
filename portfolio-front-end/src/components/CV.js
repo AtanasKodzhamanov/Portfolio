@@ -1,13 +1,19 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { transition, variants } from './Animations';
 
-
-const CV = () => {
+const CV = ({ direction }) => {
     return (
-        <div>
+        <motion.div
+            className="cv"
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={variants[direction]}
+        >
             <h1>CV</h1>
-        </div>
+        </motion.div>
     );
 };
-
 
 export default CV;

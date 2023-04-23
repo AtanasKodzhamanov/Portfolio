@@ -1,13 +1,20 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
+import { transition, variants } from './Animations';
 
-const Experience = () => {
+const Experience = ({ direction }) => {
     return (
-        <div>
+        <motion.div
+            className="experience"
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={variants[direction]}
+        >
             <h1>Experience</h1>
-        </div>
+        </motion.div>
     );
 };
-
 
 export default Experience;

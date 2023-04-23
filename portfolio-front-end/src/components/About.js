@@ -1,9 +1,18 @@
 import React from 'react';
 import './About.css';
+import { motion } from "framer-motion";
+import { transition, variants } from './Animations';
 
-const About = () => {
+
+const About = ({ direction }) => {
     return (
-        <div>
+        <motion.div
+            className="about-container"
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={variants[direction]}
+        >
             <div className="name-container">
                 <div className="name">
                     <h1>Atanas Kodzhamanov</h1>
@@ -19,9 +28,13 @@ const About = () => {
             <div className="about-content">
                 <p>Hey there! Welcome to my portfolio website. This is where I get to show off some of the stuff I've created and share my skills with you. Take a look around and let's connect to see how we can work together on something awesome!</p>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
-
 export default About;
+
+
+
+
+

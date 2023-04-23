@@ -1,13 +1,22 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { transition, variants } from './Animations';
 
-
-const Projects = () => {
+const Projects = ({ direction }) => {
     return (
-        <div>
+        <motion.div
+            className="projects"
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={variants[direction]}
+        >
             <h1>Projects</h1>
-        </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nunc eu nunc aliquet, nec ultricies nisl aliquet
+            </p>
+        </motion.div>
     );
 };
-
 
 export default Projects;

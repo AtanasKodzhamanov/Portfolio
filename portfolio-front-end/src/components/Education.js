@@ -1,13 +1,19 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { transition, variants } from './Animations';
 
-
-const Education = () => {
+const Education = ({ direction }) => {
     return (
-        <div>
+        <motion.div
+            className="education"
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={variants[direction]}
+        >
             <h1>Education</h1>
-        </div>
+        </motion.div>
     );
 };
-
 
 export default Education;

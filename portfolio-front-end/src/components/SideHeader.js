@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './SideHeader.css';
 
+
 function SideHeader(props) {
     return (
         <div className="navbar">

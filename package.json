@@ -1,5 +1,5 @@
 {
-  "pagename": "https://atanaskodzhamanova.github.io/portfolio-website/",
+  "homepage": "https://atanaskodzhamanov.github.io/portfolio-website",
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "CI=false npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

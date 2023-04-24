@@ -7,7 +7,7 @@ function SideHeader(props) {
         <div className="navbar">
             <div className="side-header">
                 <div className="portrait">
-                    <img src="https://www.rainforest-alliance.org/wp-content/uploads/2021/06/three-toed-sloth-teaser-1.jpg.optimal.jpg" />
+                    <img src="https://media.licdn.com/dms/image/C4E03AQFOyZTGqtVpCQ/profile-displayphoto-shrink_400_400/0/1608346958215?e=1687996800&v=beta&t=_s4b9pwWifugANfBV5ZCXnd9mMw7Gb8fkzo3G_fjMac" />
                 </div>
                 <div className="side-header-links">
                     <a href="/">ABOUT</a>

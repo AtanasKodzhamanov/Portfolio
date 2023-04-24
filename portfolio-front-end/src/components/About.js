@@ -7,11 +7,6 @@ import { transition, variants } from './Animations';
 const About = ({ direction }) => {
     return (
         <motion.div
-            className="about-container"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={variants[direction]}
         >
             <div className="name-container">
                 <div className="name">
@@ -26,7 +21,10 @@ const About = ({ direction }) => {
                 </div>
             </div>
             <div className="about-content">
-                <p>Hey there! Welcome to my portfolio website. This is where I get to show off some of the stuff I've created and share my skills with you. Take a look around and let's connect to see how we can work together on something awesome!</p>
+                <p>Hey there! Welcome to my portfolio website. This is where I get to show off some of the stuff I've created and share my skills with you.
+
+                </p>
+                <p>Take a look around and let's connect to see how we can work together on something awesome!</p>
             </div>
         </motion.div>
     );

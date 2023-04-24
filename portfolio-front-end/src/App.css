@@ -22,6 +22,8 @@
   flex-direction: column;
   padding:100px;
   max-width: 50%;
+  margin-left:280px;
+
 }
 
 p{
@@ -46,9 +48,27 @@ h1{
 
 }
 
+h2{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: var(--primary-color);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+}
+
 h3{
   color: var(--subtitle-color);
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
 
+}
+
+ul{
+  list-style-type: square;
+}
+
+li{
+  color: var(--text-color);
+  font-weight: 700;
+  margin-bottom: 20px;
 }

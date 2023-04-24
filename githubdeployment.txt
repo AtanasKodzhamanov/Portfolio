@@ -1,6 +1,4 @@
-First, make sure you have both the main and gh-pages branches on your local machine. To do this, run git branch in your repository's directory to list all available branches, and ensure that both main and gh-pages are present.
-
-Start by working on your main branch. This is where you'll make all your changes and updates to your project. Use git add, git commit, and git push to save your changes and push them to the remote repository.
+Work on your main branch. This is where you'll make all your changes and updates to your project. Use git add, git commit, and git push to save your changes and push them to the remote repository.
 
 Once you're ready to publish your changes to the web, switch to the gh-pages branch using git checkout gh-pages. This branch is specifically meant for hosting your project's website on GitHub Pages.
 

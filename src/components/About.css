@@ -1,0 +1,39 @@
+
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 50px;
+    padding-left:0px;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.about-links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-links-container a{
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight:600;
+}
+
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
+
+:root {
+  --primary-color: #2C3E50; 
+  --secondary-color: #9f9f9f; 
+  --accent-color: #cc4337; 
+  --border-color: #454e57; 
+  --text-color: #868E96;
+  --subtitle-color: #50502c;
+}
+
+
+
+
+.page-body{
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: column;
+  padding:100px;
+  max-width: 50%;
+  margin-left:280px;
+
+}
+
+p{
+  color: var(--text-color);
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+a{
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-size:1.17em;
+  color: var(--accent-color);
+}
+
+h1{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: var(--primary-color);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 4px;
+
+}
+
+h2{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: var(--primary-color);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+}
+
+h3{
+  color: var(--subtitle-color);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+
+}
+
+ul{
+  list-style-type: square;
+}
+
+li{
+  color: var(--text-color);
+  font-weight: 700;
+  margin-bottom: 20px;
+}

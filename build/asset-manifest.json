@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/atanaskodzhmanov.github.io/static/css/main.4c293726.css",
+    "main.js": "/atanaskodzhmanov.github.io/static/js/main.2b4d4749.js",
+    "static/js/787.e299d150.chunk.js": "/atanaskodzhmanov.github.io/static/js/787.e299d150.chunk.js",
+    "static/media/dona1.png": "/atanaskodzhmanov.github.io/static/media/dona1.1977c89f9f3c12c3997e.png",
+    "static/media/dona2.png": "/atanaskodzhmanov.github.io/static/media/dona2.dc237148afc4a10da424.png",
+    "index.html": "/atanaskodzhmanov.github.io/index.html",
+    "main.4c293726.css.map": "/atanaskodzhmanov.github.io/static/css/main.4c293726.css.map",
+    "main.2b4d4749.js.map": "/atanaskodzhmanov.github.io/static/js/main.2b4d4749.js.map",
+    "787.e299d150.chunk.js.map": "/atanaskodzhmanov.github.io/static/js/787.e299d150.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c293726.css",
+    "static/js/main.2b4d4749.js"
+  ]
+}

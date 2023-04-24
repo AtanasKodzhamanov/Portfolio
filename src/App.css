@@ -82,3 +82,32 @@ li{
   transform: scale(1.2);
   cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+  .content-container{
+    max-width: 90%;
+    margin-right:0px;
+    padding-right:50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content-container{
+    max-width: 100%;
+    margin-right:0px;
+    padding-right:50px;
+  }
+}
+  
+@media screen and (max-width: 1000px) {
+  .page-body{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-container{
+    margin-left:0px;
+  }
+  .portrait img{
+    display:none;
+  }
+}

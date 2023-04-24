@@ -2,6 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { transition, variants } from './Animations';
 import './Education.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faGithub, faLinkedin, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+
+
+library.add(faPython, faJsSquare, faReact, faGithub, faLinkedin);
 
 const Education = ({ direction }) => {
     return (
@@ -17,7 +23,19 @@ const Education = ({ direction }) => {
             <br></br>
             <div>
                 <h2>Programming</h2>
-                <p>I have experience with a variety of programming languages, including Python, SAS, SQL, Stata, JavaScript, and C#. I have used these languages to develop a range of applications and solve complex problems on both professional and hobby projects. I am always looking to improve my programming skills, learn new technologies and expand my skillset in the field of programming. </p>
+                <div className="icons-container">
+                    <div>
+                        <FontAwesomeIcon icon={faPython} size="6x" style={{ color: "#2c3e50" }} />
+                    </div>
+                    <div>
+                        <FontAwesomeIcon icon={faJsSquare} size="6x" style={{ color: "#2c3e50" }} />
+                    </div>
+                    <div>
+                        <FontAwesomeIcon icon={faReact} size="6x" style={{ color: "#2c3e50" }} />
+                    </div>
+
+                </div>
+                <p>I have experience with a variety of programming languages, including Python, SAS, SQL, STATA, JavaScript, R and C#. I have used these languages to develop a range of applications and solve complex problems on both professional and hobby projects. I am always looking to improve my programming skills, learn new technologies and expand my skillset in the field of programming. </p>
                 <p>My formal programming education comprises of:</p>
                 <ul>
                     <li>Software University: various courses in Python, Django, ReactJS, C#, JavaScript, SQL, HTML and CSS</li>
@@ -83,7 +101,7 @@ const Education = ({ direction }) => {
                     <div className="finance-image">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Cfa-institute-logo.svg/768px-Cfa-institute-logo.svg.png?20201124173558" width="100%;" height="100%" object-fit="cover" />
                     </div>
-                    <div className="finance-image">
+                    <div className="finance-text">
                         <h3>Passed all levels of CFA</h3>
                         <p>I have completed all three levels of the Chartered Financial Analyst (CFA) exams. The CFA program is a professional credential that covers a range of topics in finance and investment. Through this program, I have gained a deeper understanding of investment principles, as well as practical skills in financial analysis, valuation, and portfolio management. I have also learned how to apply these concepts and skills in real-world scenarios and make informed, evidence-based decisions. Overall, the CFA program has been a valuable and enriching experience.</p>
                         <a href="https://www.cfainstitute.org/en/programs/cfa/curriculum">CFA curriculum</a>

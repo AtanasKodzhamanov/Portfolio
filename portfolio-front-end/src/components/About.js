@@ -13,6 +13,11 @@ library.add(faPython, faJsSquare, faReact, faGithub, faLinkedin);
 const About = ({ direction }) => {
     return (
         <motion.div
+            className="cv"
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={variants[direction]}
         >
             <div className="name-container">
                 <div className="name">

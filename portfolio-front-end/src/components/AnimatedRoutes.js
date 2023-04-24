@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Routes, Route, useLocation, useHistory } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import About from './About';
 import Projects from './Projects';
 import Education from './Education';
@@ -12,16 +12,10 @@ function AnimatedRoutes() {
     const currentPathRef = useRef(location.pathname);
     const prevPathRef = useRef("initial");
 
-    function AnimatedRoutes({ currentPathRef, prevPathRef }) {
-        const location = useLocation();
-
-        if (prevPathRef.current !== currentPathRef.current) {
-            console.log("current pathname: " + currentPathRef.current);
-            console.log("previous pathname: " + prevPathRef.current);
-            prevPathRef.current = currentPathRef.current;
-            currentPathRef.current = location.pathname;
-        }
-    }
+    useEffect(() => {
+        prevPathRef.current = currentPathRef.current;
+        currentPathRef.current = location.pathname;
+    }, [location]);
 
     const pathsOrder = ['/', '/projects', '/education', '/experience', '/cv'];
 
@@ -34,11 +28,11 @@ function AnimatedRoutes() {
     return (
         <AnimatePresence>
             <Routes>
-                <Route path="/" element={<About direction={animationDirection()} />} />
-                <Route path="/projects" element={<Projects direction={animationDirection()} />} />
-                <Route path="/education" element={<Education direction={animationDirection()} />} />
-                <Route path="/experience" element={<Experience direction={animationDirection()} />} />
-                <Route path="/cv" element={<CV direction={animationDirection()} />} />
+                <Route exact path="/" element={<About direction={animationDirection()} />} />
+                <Route exact path="/projects" element={<Projects direction={animationDirection()} />} />
+                <Route exact path="/education" element={<Education direction={animationDirection()} />} />
+                <Route exact path="/experience" element={<Experience direction={animationDirection()} />} />
+                <Route exact path="/cv" element={<CV direction={animationDirection()} />} />
             </Routes>
         </AnimatePresence>
     );

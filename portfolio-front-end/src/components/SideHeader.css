@@ -45,4 +45,7 @@
   }
   
 
- 
+  .side-header-links a.active {
+    color: white;
+    text-decoration: bold;
+  }

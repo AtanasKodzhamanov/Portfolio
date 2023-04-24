@@ -22,6 +22,7 @@ const About = ({ direction }) => {
             <div className="name-container">
                 <div className="name">
                     <h1>Atanas Kodzhamanov</h1>
+                    Deployment test
                 </div>
                 <div className="about-links-container">
                     <h3>Full Stack Developer</h3>

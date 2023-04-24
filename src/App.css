@@ -72,3 +72,13 @@ li{
   font-weight: 700;
   margin-bottom: 20px;
 }
+
+.fa-linkedin:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  cursor: pointer;
+}
+.fa-github:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

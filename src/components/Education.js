@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { transition, variants } from './Animations';
+import { variants } from './Animations';
 import './Education.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -53,7 +53,7 @@ const Education = ({ direction }) => {
                 <div>
                     <div className="education-school-box">
                         <div className="tse-image">
-                            <img src="https://www.lamm.it/wp-content/uploads/Toulouse-School-of-Economics-Study-benches-LAMM-1.jpg" width="100%;" height="100%" object-fit="cover" />
+                            <img src="https://www.lamm.it/wp-content/uploads/Toulouse-School-of-Economics-Study-benches-LAMM-1.jpg" alt="school" width="100%;" height="100%" object-fit="cover" />
                         </div>
                         <div className="tse-text">
                             <div className="tse-text-first-half">
@@ -90,7 +90,7 @@ const Education = ({ direction }) => {
 
                         </div>
                         <div className="rhul-image">
-                            <img src="https://i2-prod.getsurrey.co.uk/incoming/article13821588.ece/ALTERNATES/s1227b/MSR_SAH_030215snow_01.jpg" width="100%;" height="100%" object-fit="cover" />
+                            <img src="https://i2-prod.getsurrey.co.uk/incoming/article13821588.ece/ALTERNATES/s1227b/MSR_SAH_030215snow_01.jpg" alt="school" width="100%;" height="100%" object-fit="cover" />
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ const Education = ({ direction }) => {
                 <h2>Finance</h2>
                 <div className="finance-box">
                     <div className="finance-image">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Cfa-institute-logo.svg/768px-Cfa-institute-logo.svg.png?20201124173558" width="100%;" height="100%" object-fit="cover" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Cfa-institute-logo.svg/768px-Cfa-institute-logo.svg.png?20201124173558" alt="logo" width="100%;" height="100%" object-fit="cover" />
                     </div>
                     <div className="finance-text">
                         <h3>Passed all levels of CFA</h3>

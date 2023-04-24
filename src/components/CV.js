@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { transition, variants } from './Animations';
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+import { variants } from './Animations';
+
 
 const CV = ({ direction }) => {
     return (
@@ -12,7 +12,7 @@ const CV = ({ direction }) => {
             exit="exit"
             variants={variants[direction]}
         >
-            <iframe src="https://drive.google.com/file/d/1uDAs24ewydq0tzsI-HNvbLIEoOXpCs7a/preview" width="900px" height="1200px"></iframe>
+            <iframe src="https://drive.google.com/file/d/1uDAs24ewydq0tzsI-HNvbLIEoOXpCs7a/preview" width="900px" height="1200px" title="cv"></iframe>
         </motion.div>
     );
 };

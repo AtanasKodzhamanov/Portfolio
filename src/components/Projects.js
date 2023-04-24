@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { transition, variants } from './Animations';
+import { variants } from './Animations';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
@@ -38,8 +38,8 @@ const Projects = ({ direction }) => {
                 <p>The design of the website underwent multiple iterations with additional sections being added and the visuals constantly evolving. Through this website I learned a lot about Django, HTML and CSS as well as vanilla JavaScript. The app design and visuals are my own.</p>
                 <p>The website content is managed by the shelter through Django's admin panel.</p>
                 <p>Have a look at the website and consider adopting!  </p>
-                <img src={dona1} />
-                <img src={dona2} />
+                <img src={dona1} alt="screenshot1" />
+                <img src={dona2} alt="screenshot2" />
 
                 <FontAwesomeIcon
                     icon={faGithub}

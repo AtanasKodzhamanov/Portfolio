@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import { motion } from "framer-motion";
-import { transition, variants } from './Animations';
+import { variants } from './Animations';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faLinkedin, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';

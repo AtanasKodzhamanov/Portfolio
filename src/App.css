@@ -106,6 +106,9 @@ li{
   }
   .content-container{
     margin-left:0px;
+    margin-right:0px;
+    padding:50px;
+    margin-top:70px;
   }
   .portrait img{
     display:none;

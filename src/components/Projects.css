@@ -1,0 +1,9 @@
+.title-icons{
+    display:flex;
+    justify-content: space-between;
+}
+.icons{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+}

@@ -5,7 +5,7 @@ import { faGithub, faPython, faJsSquare, faReact } from '@fortawesome/free-brand
 import dona1 from "../assets/dona1.png"
 import dona2 from "../assets/dona2.png"
 import { Element } from 'react-scroll';
-
+import './Projects.css';
 
 library.add(faPython, faJsSquare, faReact, faGithub);
 
@@ -14,17 +14,21 @@ const Projects = () => {
         <Element name="Projects" className="section">
             <h1>Projects</h1>
             <div>
-                <h2>DonaDogs</h2>
-                <FontAwesomeIcon
-                    icon={faPython}
-                    size="3x"
-                    style={{ color: "#2c3e50" }}
-                />
-                <FontAwesomeIcon
-                    icon={faReact}
-                    size="3x"
-                    style={{ color: "#2c3e50" }}
-                />
+                <div className="title-icons">
+                    <h2>DonaDogs</h2>
+                    <div className="icons">
+                        <FontAwesomeIcon
+                            icon={faPython}
+                            size="3x"
+                            style={{ color: "#2c3e50" }}
+                        />
+                        <FontAwesomeIcon
+                            icon={faReact}
+                            size="3x"
+                            style={{ color: "#2c3e50" }}
+                        />
+                    </div>
+                </div>
                 <a href="https://www.donadogs.com/en/">www.donadogs.org</a>
 
                 <p>DonaDogs was my first major Django project that was inspired by the needs of a dog rescue in a small Bulgarian town. Since its release in January 2023, the website has increased the number of virtual sponsors from a handful to now having nearly all dogs virtually adopted, solving the shelter's perpetual lack of food problem and allowing them to expand the number of dogs they can take care of as well as improve the conditions they live in.</p>
@@ -48,7 +52,7 @@ const Projects = () => {
                 <p>The website supports multiple users with each able to add,view,edit and delete their notes. The app design and visuals are my own.</p>
             </div>
             <div>
-                <h2>Consult-m</h2>
+                <h2>Construct-m</h2>
                 <p>Consult-m is a freelance project developed for the needs of an engineering consultancy. Built with ReactJS. </p>
                 <p>The website design and visuals were made in collaboration with the client.</p>
             </div>

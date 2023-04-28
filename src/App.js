@@ -6,9 +6,6 @@ import Projects from './components/Projects';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import CV from './components/CV';
-import { Link, animateScroll as scroll } from 'react-scroll';
-
-
 
 function App() {
 

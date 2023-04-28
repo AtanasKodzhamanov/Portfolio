@@ -102,7 +102,9 @@ const Education = () => {
                     </div>
                 </div>
             </div>
-
+            <div>
+                <h2>Various Certifications</h2>
+            </div>
         </Element>
     );
 };

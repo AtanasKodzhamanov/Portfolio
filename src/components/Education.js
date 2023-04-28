@@ -1,23 +1,17 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { variants } from './Animations';
+
 import './Education.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faLinkedin, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { Element } from 'react-scroll';
 
 
 library.add(faPython, faJsSquare, faReact, faGithub, faLinkedin);
 
-const Education = ({ direction }) => {
+const Education = () => {
     return (
-        <motion.div
-            className="education"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={variants[direction]}
-        >
+        <Element name="Education" className="section">
 
             <h1>Education and Experience</h1>
             <br></br>
@@ -109,7 +103,7 @@ const Education = ({ direction }) => {
                 </div>
             </div>
 
-        </motion.div>
+        </Element>
     );
 };
 

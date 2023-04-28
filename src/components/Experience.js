@@ -1,19 +1,11 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { Element } from 'react-scroll';
 
-import { variants } from './Animations';
-
-const Experience = ({ direction }) => {
+const Experience = () => {
     return (
-        <motion.div
-            className="experience"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={variants[direction]}
-        >
+        <Element name="Experience" className="section">
             <h1>Experience</h1>
-        </motion.div>
+        </Element>
     );
 };
 

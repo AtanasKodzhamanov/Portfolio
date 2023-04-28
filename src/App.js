@@ -1,7 +1,14 @@
 import React from 'react';
 import './App.css'; // Import the CSS file
 import SideHeader from './components/SideHeader';
-import AnimatedRoutes from './components/AnimatedRoutes';
+import About from './components/About';
+import Projects from './components/Projects';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import CV from './components/CV';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
+
 
 function App() {
 
@@ -9,7 +16,12 @@ function App() {
     <div className="page-body">
       <SideHeader />
       <div className="content-container">
-        <AnimatedRoutes />
+        <About />
+        <Projects />
+        <Education />
+        <Experience />
+        <CV />
+
       </div>
     </div>
   );

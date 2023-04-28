@@ -1,24 +1,18 @@
 import React from 'react';
 import './About.css';
-import { motion } from "framer-motion";
-import { variants } from './Animations';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faLinkedin, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { Element } from 'react-scroll';
 
 
 library.add(faPython, faJsSquare, faReact, faGithub, faLinkedin);
 
 
-const About = ({ direction }) => {
+const About = () => {
     return (
-        <motion.div
-            className="cv"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={variants[direction]}
-        >
+
+        <Element name="About" className="section">
             <div className="name-container">
                 <div className="name">
                     <h1>Atanas Kodzhamanov</h1>
@@ -55,7 +49,7 @@ const About = ({ direction }) => {
                     />
                 </div>
             </div>
-        </motion.div>
+        </Element>
     );
 };
 

@@ -65,9 +65,13 @@
     font-weight: bold;
     letter-spacing: 3px;
   }
-  
+
+
+
   .side-header-links a:hover {
     color: white;
+    text-decoration: bold;
+    cursor: pointer;
   }
   
 

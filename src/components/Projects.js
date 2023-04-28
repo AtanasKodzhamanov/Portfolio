@@ -1,24 +1,17 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { variants } from './Animations';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import dona1 from "../assets/dona1.png"
 import dona2 from "../assets/dona2.png"
+import { Element } from 'react-scroll';
 
 
 library.add(faPython, faJsSquare, faReact, faGithub);
 
-const Projects = ({ direction }) => {
+const Projects = () => {
     return (
-        <motion.div
-            className="projects"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={variants[direction]}
-        >
+        <Element name="Projects" className="section">
             <h1>Projects</h1>
             <div>
                 <h2>DonaDogs</h2>
@@ -70,7 +63,7 @@ const Projects = ({ direction }) => {
             </div>
 
 
-        </motion.div>
+        </Element>
     );
 };
 

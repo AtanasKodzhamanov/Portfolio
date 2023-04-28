@@ -4,6 +4,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import dona1 from "../assets/dona1.png"
 import dona2 from "../assets/dona2.png"
+import Dona3 from "../assets/Dona3.png"
+import Dona4 from "../assets/Dona4.png"
+import Dona5 from "../assets/Dona5.png"
 import { Element } from 'react-scroll';
 import './Projects.css';
 
@@ -35,9 +38,23 @@ const Projects = () => {
                 <p>The design of the website underwent multiple iterations with additional sections being added and the visuals constantly evolving. Through this website I learned a lot about Django, HTML and CSS as well as vanilla JavaScript. The app design and visuals are my own.</p>
                 <p>The website content is managed by the shelter through Django's admin panel.</p>
                 <p>Have a look at the website and consider adopting!  </p>
-                <img src={dona1} alt="screenshot1" />
-                <img src={dona2} alt="screenshot2" />
-
+                <div className="screenshots">
+                    <div className="screenshot">
+                        <img src={dona1} alt="screenshot1" />
+                    </div>
+                    <div className="screenshot">
+                        <img src={dona2} alt="screenshot2" />
+                    </div>
+                    <div className="screenshot">
+                        <img src={Dona3} alt="screenshot3" />
+                    </div>
+                    <div className="screenshot">
+                        <img src={Dona4} alt="screenshot4" />
+                    </div>
+                    <div className="screenshot">
+                        <img src={Dona5} alt="screenshot5" />
+                    </div>
+                </div>
                 <FontAwesomeIcon
                     icon={faGithub}
                     size="6x"

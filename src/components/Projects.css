@@ -7,3 +7,23 @@
     justify-content: space-between;
     gap:20px;
 }
+
+.screenshots{
+    background-color: lightgray;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:30px;
+}
+
+.screenshot {
+    flex-basis: calc(50% - 20px);
+    /* 10px accounts for half the gap between two items */
+  }
+
+.screenshot img {
+    object-position: left;
+}

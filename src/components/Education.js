@@ -3,11 +3,11 @@ import React from 'react';
 import './Education.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faGithub, faLinkedin, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faPython, faJsSquare, faReact, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { Element } from 'react-scroll';
 
 
-library.add(faPython, faJsSquare, faReact, faGithub, faLinkedin);
+library.add(faPython, faJsSquare, faReact, faGithub, faLinkedin, faCss3, faHtml5);
 
 const Education = () => {
     return (
@@ -18,16 +18,23 @@ const Education = () => {
             <div>
                 <h2>Programming</h2>
                 <div className="icons-container">
-                    <div>
-                        <FontAwesomeIcon icon={faPython} size="6x" style={{ color: "#2c3e50" }} />
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faJsSquare} size="6x" style={{ color: "#2c3e50" }} />
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faReact} size="6x" style={{ color: "#2c3e50" }} />
-                    </div>
+                    <FontAwesomeIcon icon={faPython} size="5x" style={{ color: "#2c3e50" }} />
 
+                    <FontAwesomeIcon icon={faJsSquare} size="5x" style={{ color: "#2c3e50" }} />
+
+                    <FontAwesomeIcon icon={faReact} size="5x" style={{ color: "#2c3e50" }} />
+
+                    <FontAwesomeIcon
+                        icon={faCss3}
+                        size="5x"
+                        style={{ color: "#2c3e50" }}
+                    />
+
+                    <FontAwesomeIcon
+                        icon={faHtml5}
+                        size="5x"
+                        style={{ color: "#2c3e50" }}
+                    />
                 </div>
                 <p>I have experience with a variety of programming languages, including Python, SAS, SQL, STATA, JavaScript, R and C#. I have used these languages to develop a range of applications and solve complex problems on both professional and hobby projects. I am always looking to improve my programming skills, learn new technologies and expand my skillset in the field of programming. </p>
                 <p>My formal programming education comprises of:</p>

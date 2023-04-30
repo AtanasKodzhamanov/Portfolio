@@ -35,3 +35,7 @@
 .screenshot:first-child:nth-last-child(odd) {
     flex-basis: 100%;
   }
+
+.project{
+    margin-bottom:200px;
+}

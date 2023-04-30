@@ -46,6 +46,7 @@ const About = () => {
                         onClick={() => window.open("https://www.linkedin.com/in/atanas-kodzhamanov/", "_blank")}
                     />
                 </div>
+                <hr />
             </div>
         </Element>
     );

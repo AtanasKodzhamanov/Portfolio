@@ -70,12 +70,15 @@
 
   .side-header-links a:hover {
     color: white;
-    text-decoration: bold;
+    font-weight: bold;
+    letter-spacing: 4px;
     cursor: pointer;
   }
   
 
   .side-header-links a.active {
     color: white;
-    text-decoration: bold;
+    font-weight: bold;
+    letter-spacing: 4px;
   }
+

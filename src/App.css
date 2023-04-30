@@ -9,8 +9,12 @@
   --subtitle-color: #50502c;
 }
 
-
-
+.section{
+  min-height:100vh;
+  padding-bottom:100px;
+  padding-top:50px;
+  border-bottom : 1px solid var(--border-color);
+}
 
 .page-body{
   display: flex;
@@ -21,6 +25,7 @@
   display: flex;
   flex-direction: column;
   padding:100px;
+  padding-top:0px;
   max-width: 55%;
   margin-left:280px;
 
@@ -83,9 +88,6 @@ li{
   cursor: pointer;
 }
 
-.section{
-  margin-bottom: 500px;
-}
 
 @media screen and (max-width: 1300px) {
   .content-container{

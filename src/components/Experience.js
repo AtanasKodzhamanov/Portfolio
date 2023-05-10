@@ -1,7 +1,10 @@
 import React from 'react';
 import { Element } from 'react-scroll';
+import useGoogleAnalytics from './useGoogleAnalytics';
 
 const Experience = () => {
+    useGoogleAnalytics();
+
     return (
         <Element name="Experience" className="section">
             <h1>Experience</h1>

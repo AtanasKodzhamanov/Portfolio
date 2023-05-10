@@ -9,10 +9,13 @@ import Dona4 from "../assets/Dona4.png"
 import Dona5 from "../assets/Dona5.png"
 import { Element } from 'react-scroll';
 import './Projects.css';
+import useGoogleAnalytics from './useGoogleAnalytics';
 
 library.add(faPython, faJsSquare, faReact, faGithub, faCss3, faHtml5);
 
 const Projects = () => {
+    useGoogleAnalytics();
+
     return (
         <Element name="Projects" className="section">
             <section className="project">

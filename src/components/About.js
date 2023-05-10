@@ -4,12 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faLinkedin, faPython, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import { Element } from 'react-scroll';
+import useGoogleAnalytics from './useGoogleAnalytics';
 
 
 library.add(faPython, faJsSquare, faReact, faGithub, faLinkedin);
 
 
 const About = () => {
+    useGoogleAnalytics();
+
     return (
 
         <Element name="About" className="section">

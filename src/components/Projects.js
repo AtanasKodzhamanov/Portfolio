@@ -7,7 +7,6 @@ import dona2 from "../assets/dona2.png"
 import Dona3 from "../assets/Dona3.png"
 import Dona4 from "../assets/Dona4.png"
 import Dona5 from "../assets/Dona5.png"
-import Django from "../assets/django.png"
 import { Element } from 'react-scroll';
 import './Projects.css';
 

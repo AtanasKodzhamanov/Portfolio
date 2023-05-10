@@ -36,14 +36,17 @@ const Education = () => {
                         style={{ color: "#2c3e50" }}
                     />
                 </div>
-                <p>I have experience with a variety of programming languages, including Python, SAS, SQL, STATA, JavaScript, R and C#. I have used these languages to develop a range of applications and solve complex problems on both professional and hobby projects. I am always looking to improve my programming skills, learn new technologies and expand my skillset in the field of programming. </p>
+                <p>I have experience with a variety of programming languages, including Python, SAS, SQL, STATA, JavaScript and C#. I have used these languages to develop a range of applications and solve complex problems on both professional and hobby projects. I am always looking to improve my programming skills, learn new technologies and expand my skillset in the field of programming. </p>
                 <p>My formal programming education comprises of:</p>
                 <ul>
-                    <li>Software University: various courses in Python, Django, ReactJS, C#, JavaScript, SQL, HTML and CSS</li>
+                    <li>Software University: 2-3 month long modules in Python, Django, ReactJS, C#, JavaScript, SQL, HTML and CSS</li>
                     <li>Formal training and certifications in SAS and SAS SQL</li>
                     <li>Online courses, university classes and on the job training in STATA</li>
-                    <li>Online courses, university classes and on the job training in R</li>
-                    <li>Various other Udemy and LinkedIn Learning Python and ReactJS classes</li>
+                    <li>Various other Udemy and LinkedIn programming classes:</li>
+                    <ul>
+                        <li>aaa</li>
+                        <li>aaa</li>
+                    </ul>
                 </ul>
             </div>
             <br></br>

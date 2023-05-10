@@ -120,6 +120,7 @@ const Projects = () => {
                 <div>
                     <div className="title-icons">
                         <h2>Construct-m</h2>
+
                         <div className="icons">
                             <br></br>
                             <FontAwesomeIcon
@@ -141,7 +142,10 @@ const Projects = () => {
                                 onClick={() => window.open("https://github.com/AtanasKodzhamanov/www.DonaDogs.org", "_blank")}
                             />
                         </div>
+
                     </div>
+                    <a href="https://www.construct-m.com/">www.construct-m.com</a>
+
                     <p>Consult-m is a freelance project developed for the needs of an engineering consultancy. Built with ReactJS. </p>
                     <p>The website design and visuals were made in collaboration with the client.</p>
                 </div>
@@ -172,7 +176,7 @@ const Projects = () => {
                             />
                         </div>
                     </div>
-                    <p>This portfolio website was created using ReactJS. The design was inspired by other similar websites, but the code is my own. </p>
+                    <p>This portfolio website was created using ReactJS. </p>
                 </div>
             </section>
             <section className="project">

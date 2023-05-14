@@ -24,12 +24,12 @@
 .content-container{
   display: flex;
   flex-direction: column;
-  padding:100px;
-  padding-top:0px;
-  max-width: 55%;
-  margin-left:280px;
-
+  padding: 6vw; /* adjust as needed */
+  padding-top: 0;
+  max-width: 55vw; /* adjust as needed */
+  margin-left: 15vw; /* adjust as needed */
 }
+
 
 p{
   color: var(--text-color);

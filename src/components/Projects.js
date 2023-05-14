@@ -148,8 +148,8 @@ const Projects = () => {
                     </div>
                     <a href="https://www.construct-m.com/">www.construct-m.com</a>
 
-                    <p>Consult-m is a freelance project developed for the needs of an engineering consultancy. Built with ReactJS. </p>
-                    <p>The website design and visuals were made in collaboration with the client.</p>
+                    <p>Construct-M is a freelance project developed for the needs of an engineering consultancy. Built with ReactJS. </p>
+                    <p>The website design was made in collaboration with the client.</p>
                 </div>
             </section>
             <section className="project">
@@ -183,13 +183,6 @@ const Projects = () => {
             </section>
             <section className="project">
                 <div>
-                    <h2>Video Nabludenie</h2>
-                    <p>Video Nabludenie (translated to Camera Surveillance) is a freelance project developed for the needs of a camera installation firm in Bulgaria. The website is built using ReactJS.</p>
-                    <p>The website design and visuals were made in collaboration with the client.</p>
-                </div>
-            </section>
-            <section className="project">
-                <div>
                     <div className="title-icons">
                         <h2>Tiny Projects</h2>
                         <div className="icons">
@@ -209,6 +202,10 @@ const Projects = () => {
                         </div>
                     </div>
                     <p>These are some of the smaller projects I've worked on. They are mostly built with Python and aimed to solve real world problems that I've had.</p>
+                    <ul>
+                        <li><p>GiantFileSafari - The code traverses a directory tree and collects information about the files and folders in the tree. It then analyzes the collected data and outputs the results to an Excel file. The code allows the user to specify the minimum size of files to include in the analysis and the number of top results to show. It also calculates the total size of files in each folder and the depth of each folder in the directory tree. I used this to identify files and folders eating up my SSD storage. Packaged as a standalone executable.</p></li>
+                        <li><p>MarcoPolo - This code uses the Selenium webdriver to open a Firefox browser and navigate to a list of URLs. The URLs are read from an Excel file and the corresponding web pages are screenshot. The screenshots are saved to a specified directory. The code also uses threading to distribute the workload across multiple threads and run the tasks in parallel. The script is used to document evidence for trial bundle preparation.</p></li>
+                    </ul>
                 </div>
             </section>
 

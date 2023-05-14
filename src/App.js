@@ -17,7 +17,7 @@ const useInView = (ref) => {
       ([entry]) => {
         setInView(entry.isIntersecting);
       },
-      { threshold: 0.15 }
+      { threshold: 0.05 }
     );
 
     const currentRef = ref.current;
@@ -62,7 +62,7 @@ function App() {
       if (element) {
         setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth' });
-        }, 1500);
+        }, 5000);
       }
     }
   }, [location]);

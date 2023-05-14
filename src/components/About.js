@@ -27,8 +27,7 @@ const About = () => {
                 </div>
             </div>
             <div className="about-content">
-                <p>Hey there! Welcome to my portfolio website. This is where I get to show off some of the stuff I've created and share my skills with you.
-
+                <p>Hello there! Welcome to my portfolio website. This is where I get to present some of the projects I've worked on and share my profile with potential employers and collaborators.
                 </p>
                 <p>Take a look around and let's connect to see how we can work together on something awesome!</p>
             </div>

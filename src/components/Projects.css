@@ -12,11 +12,11 @@
 @media (max-width: 480px) {
     .title-icons{
         flex-direction: column;
-        justify-content: start;
+        justify-content: flex-start;
     }
     .icons{
         display:flex;
-        justify-content: start;
+        justify-content: flex-start;
         gap:5px;
     }
   }
@@ -46,7 +46,7 @@
 @media (max-width: 480px) {
     .screenshots{
         flex-direction: column;
-        justify-content: start;
+        justify-content: flex-start;
     }
 
   }

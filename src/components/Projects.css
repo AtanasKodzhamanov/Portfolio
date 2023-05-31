@@ -9,7 +9,7 @@
     gap:20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .title-icons{
         flex-direction: column;
         justify-content: flex-start;

@@ -74,10 +74,10 @@ img{
     padding-top: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .icons-container{
         justify-content: center;
-        gap:5px;
+        gap:10px;
         flex-wrap:wrap;
 
     }

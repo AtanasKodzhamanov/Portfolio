@@ -9,10 +9,10 @@
     width: 10vw;
   }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .navbar{
     width: 100%; 
-    height:10vh;
+    height:1rem;
   }
 
 }
@@ -41,6 +41,7 @@
 
 @media screen and (max-width: 1000px) {
   .side-header-links {
+    display: none;
     flex-direction: row;
     gap: 20px;
     margin: 0px;

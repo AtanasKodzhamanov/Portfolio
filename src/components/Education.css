@@ -73,3 +73,30 @@ img{
     gap: 40px;
     padding-top: 20px;
 }
+
+@media (max-width: 480px) {
+    .icons-container{
+        justify-content: center;
+        gap:5px;
+        flex-wrap:wrap;
+
+    }
+  }
+
+  @media (max-width: 480px) {
+    .education-school-box{
+        flex-direction: column;
+    }
+    .tse-text{
+        padding-left: 0px;
+    }
+    .rhul-text{
+        padding-right: 0px;
+    }
+    .finance-box{
+        flex-direction: column;
+    }
+    .finance-text{
+        padding-left: 0px;
+    }
+  }

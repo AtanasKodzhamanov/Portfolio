@@ -60,7 +60,7 @@ const Education = () => {
                 <div>
                     <div className="education-school-box">
                         <div className="tse-image">
-                            <img src="https://www.lamm.it/wp-content/uploads/Toulouse-School-of-Economics-Study-benches-LAMM-1.jpg" alt="school" width="100%;" height="100%" object-fit="cover" />
+                            <img src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1685550391/atanas/66_j5wxhl.webp" alt="school" width="100%;" height="100%" object-fit="cover" />
                         </div>
                         <div className="tse-text">
                             <div className="tse-text-first-half">
@@ -97,7 +97,7 @@ const Education = () => {
 
                         </div>
                         <div className="rhul-image">
-                            <img src="https://i2-prod.getsurrey.co.uk/incoming/article13821588.ece/ALTERNATES/s1227b/MSR_SAH_030215snow_01.jpg" alt="school" width="100%;" height="100%" object-fit="cover" />
+                            <img src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1685550391/atanas/77_iibd7u.webp" alt="school" width="100%;" height="100%" object-fit="cover" />
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const Education = () => {
                 <h2>Finance</h2>
                 <div className="finance-box">
                     <div className="finance-image">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Cfa-institute-logo.svg/768px-Cfa-institute-logo.svg.png?20201124173558" alt="logo" width="100%;" height="100%" object-fit="cover" />
+                        <img src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1685553983/atanas/88_rw1zuk.webp" alt="logo" width="100%;" height="100%" object-fit="cover" />
                     </div>
                     <div className="finance-text">
                         <h3>Passed all levels of CFA</h3>

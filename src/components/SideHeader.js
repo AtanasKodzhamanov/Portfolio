@@ -24,7 +24,6 @@ function SideHeader() {
                 <Link className={activeLink === 'Projects' ? 'active' : ''} to="Projects" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Projects')} onSetInactive={() => setActiveLink('')} onClick={() => setNavOpen(false)}><h3>Projects</h3></Link>
                 <Link className={activeLink === 'Education' ? 'active' : ''} to="Education" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Education')} onSetInactive={() => setActiveLink('')} onClick={() => setNavOpen(false)}><h3>Education</h3></Link>
                 <Link className={activeLink === 'Experience' ? 'active' : ''} to="Experience" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Experience')} onSetInactive={() => setActiveLink('')} onClick={() => setNavOpen(false)}><h3>Experience</h3></Link>
-                <Link className={activeLink === 'CV' ? 'active' : ''} to="CV" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('CV')} onSetInactive={() => setActiveLink('')} onClick={() => setNavOpen(false)}><h3>CV</h3></Link>
             </div>
             <div className="side-header">
                 <div className="portrait">
@@ -37,7 +36,6 @@ function SideHeader() {
                     <Link className={activeLink === 'Projects' ? 'active' : ''} to="Projects" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Projects')} onSetInactive={() => setActiveLink('')}>Projects</Link>
                     <Link className={activeLink === 'Education' ? 'active' : ''} to="Education" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Education')} onSetInactive={() => setActiveLink('')}>Education</Link>
                     <Link className={activeLink === 'Experience' ? 'active' : ''} to="Experience" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Experience')} onSetInactive={() => setActiveLink('')}>Experience</Link>
-                    <Link className={activeLink === 'CV' ? 'active' : ''} to="CV" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('CV')} onSetInactive={() => setActiveLink('')}>CV</Link>
                 </div>
             </div>
             <div id="hamburger-icon" onClick={toggleNav}>

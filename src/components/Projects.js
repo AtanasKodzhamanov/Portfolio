@@ -56,6 +56,8 @@ const Projects = () => {
                     <p>The design of the website underwent multiple iterations with additional sections being added and the visuals constantly evolving. Through this website I learned a lot about Django, HTML and CSS as well as vanilla JavaScript. The app design and visuals are my own.</p>
                     <p>The website content is managed by the shelter through Django's admin panel.</p>
                     <p>Have a look at the website and consider adopting!  </p>
+                    <p> </p>
+                    <p style={{ fontSize: '0.7em' }}>STATUS: MAINTENANCE AND OCCASIONAL IMPROVEMENTS</p>
                     <div className="screenshots-container">
                         <h3>Project Screenshots</h3>
                         <div className="screenshots">
@@ -111,6 +113,9 @@ const Projects = () => {
 
                     <p>Construct-M is a freelance project developed for the needs of an engineering consultancy. Built with ReactJS. </p>
                     <p>The website design was made in collaboration with the client.</p>
+                    <p> </p>
+                    <p style={{ fontSize: '0.7em' }}>STATUS: ACTIVE DEVELOPMENT</p>
+
                 </div>
             </section>
             <section className="project">
@@ -145,6 +150,9 @@ const Projects = () => {
                     </div>
                     <p>Itesica Notes is a note taking app and my first ReactJS project (Django backend) and my project submission at SoftUni's ReactJS course. The aim of this app was to practice and improve my ReactJS skills while creating a product that can solve a personal need of mine of having a note taking app that I can use to store information on various topics in an easily accessible manner.</p>
                     <p>The website supports multiple users with each able to add,view,edit and delete their notes. The app design and visuals are my own.</p>
+                    <p>The goal is to create a website where users can share notes with everyone else using unique keys.</p>
+                    <p> </p>
+                    <p style={{ fontSize: '0.7em' }}>STATUS: UNDER DEVELOPMENT</p>
                 </div>
             </section>
 
@@ -175,6 +183,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <p>This portfolio website was created using ReactJS. </p>
+                    <p> </p>
+                    <p style={{ fontSize: '0.7em' }}>STATUS: MAINTENANCE</p>
                 </div>
             </section>
             <section className="project">
@@ -205,7 +215,7 @@ const Projects = () => {
                 </div>
             </section>
 
-        </Element>
+        </Element >
     );
 };
 

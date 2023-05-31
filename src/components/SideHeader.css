@@ -1,13 +1,11 @@
 
   
-  .navbar {
-    position:fixed;
-    padding: 4vw;
-    padding-top:20px;
-    background-color: var(--primary-color);
-    height: 100vh;
-    width: 10vw;
-  }
+.navbar {
+  position:fixed;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  height: 100vh;
+}
 
 @media (max-width: 1000px) {
   .navbar{
@@ -17,11 +15,11 @@
 
 }
 
-  .side-header {
-    display: flex;
-    flex-direction: column;
-  }
-  
+.side-header {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 1000px) {
   .side-header {
     flex-direction: row;
@@ -30,20 +28,20 @@
 }
 
   
-  .side-header-links {
-    display: flex;
-    flex-direction: column;
-    gap: 4vh; /* adjust the gap according to your needs */
-    margin: auto;
-    align-items: center;
-    height: 50vh; /* adjust the height according to your needs */
-  }
+.side-header-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; 
+  margin: auto;
+  align-items: center;
+  height: 50%; 
+}
 
 @media screen and (max-width: 1000px) {
   .side-header-links {
     display: none;
     flex-direction: row;
-    gap: 20px;
+    gap: 1rem;
     margin: 0px;
     align-items: center;
   }
@@ -70,7 +68,7 @@
 .side-header-links a {
   text-decoration: none;
   color: var(--text-color);
-  font-size: 1.5vw; /* scales with the viewport width */
+  font-size: 1.5rem; /* scales with the viewport width */
   font-weight: bold;
   letter-spacing: 0.3vw; /* scales with the viewport width */
 }
@@ -80,7 +78,7 @@
   .side-header-links a:hover {
     color: white;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     cursor: pointer;
   }
   
@@ -88,7 +86,6 @@
   .side-header-links a.active {
     color: white;
     font-weight: bold;
-    letter-spacing: 4px;
   }
 
 /* Sidebar */
@@ -96,14 +93,14 @@
 .mobile-nav {
   display:none;
   height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  width: 0; /* this is controlled within the component */
+  position: fixed; /* stay in place */
+  z-index: 1; /* stay on top */
+  top: 0; 
   left: 0;
   background-color: rgba(2, 2, 2);
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow-x: hidden; 
+  transition: 0.2s; 
 }
 
 /* The navigation menu links */
@@ -111,27 +108,20 @@
   text-decoration: none;
   transition: 0.3s;
 }
+
 .mobile-nav h3 {
   display: block;
-  padding: 8px 8px 8px 32px;
+  padding: 1rem;
   font-weight: 100;
-  font-size: clamp(2rem, 2.5vw, 2rem);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
   letter-spacing: 1vw; /* Adjust the value as needed */
   color: white;
+  margin-left:1rem;
 }
 
 /* When you mouse over the navigation links, change their color */
 .mobile-nav h3:hover {
   color: var(--accent-color);
-}
-
-/* Position and style the close button (top right corner) */
-.mobile-nav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
 }
 
 /* Style the hamburger icon */

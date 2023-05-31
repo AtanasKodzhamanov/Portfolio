@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './SideHeader.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,7 +7,6 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 function SideHeader() {
     const [activeLink, setActiveLink] = useState('');
     const [navOpen, setNavOpen] = useState(false);
-    const navRef = useRef(null);
 
     const toggleNav = () => {
         setNavOpen((prevNavOpen) => !prevNavOpen);
@@ -19,11 +18,11 @@ function SideHeader() {
 
     return (
         <div className="navbar">
-            <div id="mobile-nav" style={navStyle} ref={navRef} className="mobile-nav">
-                <Link className={activeLink === 'About' ? 'active' : ''} to="About" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('About')} onSetInactive={() => setActiveLink('')} onClick={() => setNavOpen(false)}><h3>About</h3></Link>
-                <Link className={activeLink === 'Projects' ? 'active' : ''} to="Projects" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Projects')} onSetInactive={() => setActiveLink('')} onClick={() => setNavOpen(false)}><h3>Projects</h3></Link>
-                <Link className={activeLink === 'Education' ? 'active' : ''} to="Education" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Education')} onSetInactive={() => setActiveLink('')} onClick={() => setNavOpen(false)}><h3>Education</h3></Link>
-                <Link className={activeLink === 'Experience' ? 'active' : ''} to="Experience" smooth={true} duration={500} spy={true} onSetActive={() => setActiveLink('Experience')} onSetInactive={() => setActiveLink('')} onClick={() => setNavOpen(false)}><h3>Experience</h3></Link>
+            <div id="mobile-nav" style={navStyle} className="mobile-nav">
+                <Link to="About" smooth={true} duration={500} onClick={() => setNavOpen(false)}><h3>About</h3></Link>
+                <Link to="Projects" smooth={true} duration={500} onClick={() => setNavOpen(false)}><h3>Projects</h3></Link>
+                <Link to="Education" smooth={true} duration={500} onClick={() => setNavOpen(false)}><h3>Education</h3></Link>
+                <Link to="Experience" smooth={true} duration={500} onClick={() => setNavOpen(false)}><h3>Experience</h3></Link>
             </div>
             <div className="side-header">
                 <div className="portrait">

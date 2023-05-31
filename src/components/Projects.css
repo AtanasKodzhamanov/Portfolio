@@ -6,7 +6,7 @@
 .icons{
     display:flex;
     justify-content: space-between;
-    gap:20px;
+    gap:1rem;
 }
 
 @media (max-width: 768px) {
@@ -17,16 +17,16 @@
     .icons{
         display:flex;
         justify-content: flex-start;
-        gap:5px;
+        gap:0.5rem;
     }
   }
 
 
 .screenshots-container{
     background-color: rgb(239, 238, 238);
-    margin-top:50px;
-    margin-bottom:50px;
-    padding:30px;
+    margin-top:4rem;
+    margin-bottom:3rem;
+    padding:1rem;
 }
 @media (max-width: 480px) {
     .screenshots-container{
@@ -39,7 +39,7 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap:20px;
+    gap:1rem;
 
 }
 
@@ -53,8 +53,7 @@
 
 
 .screenshot {
-    flex-basis: calc(50% - 20px);
-    /* 10px accounts for half the gap between two items */
+    flex-basis: calc(50% - 1rem);
   }
 
 .screenshot img {

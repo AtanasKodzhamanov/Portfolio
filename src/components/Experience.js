@@ -45,7 +45,7 @@ const Experience = () => {
                     <p>Delivered and managed adhoc and regular MI reports for clients across the business using SAS Enterprise Guide, SAS DI Studio, SQL and VBA.</p>
                     <p>Automated and made the production of weekly reports more efficient using Excel VBA.</p>
                     <p>Extensive coding and debugging of SAS and SQL code.</p>
-                    <p>Ensured that SQL and SAS code ran as efficiently as possible to accommodate the large datasets handled.</p>
+                    <p>Ensured that SQL and SAS code ran as efficiently as possible to accommodate the large datasets being handled.</p>
                 </div>
             </div>
         </Element>

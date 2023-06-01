@@ -13,8 +13,8 @@ const Projects = () => {
 
     return (
         <Element name="Projects" className="section">
+            <h1>Projects</h1>
             <section className="project">
-                <h1>Projects</h1>
                 <div>
                     <div className="title-icons">
                         <h2>DonaDogs</h2>
@@ -112,7 +112,6 @@ const Projects = () => {
                     <a href="https://www.construct-m.com/">www.construct-m.com</a>
 
                     <p>Construct-M is a freelance project developed for the needs of an engineering consultancy. Built with ReactJS. </p>
-                    <p>The website design was made in collaboration with the client.</p>
                     <p> </p>
                     <p style={{ fontSize: '0.7em' }}>STATUS: ACTIVE DEVELOPMENT</p>
 
@@ -148,9 +147,9 @@ const Projects = () => {
                             />
                         </div>
                     </div>
-                    <p>Itesica Notes is a note taking app and my first ReactJS project (Django backend) and my project submission at SoftUni's ReactJS course. The aim of this app was to practice and improve my ReactJS skills while creating a product that can solve a personal need of mine of having a note taking app that I can use to store information on various topics in an easily accessible manner.</p>
-                    <p>The website supports multiple users with each able to add,view,edit and delete their notes. The app design and visuals are my own.</p>
-                    <p>The goal is to create a website where users can share notes with everyone else using unique keys.</p>
+                    <p>Itesica Notes is a note taking app and my first ReactJS project (Django backend). The aim of this app was to practice and improve my ReactJS skills while creating a product that can solve a personal need of mine of having a note taking app that I can use to store information on various topics in an easily accessible manner.</p>
+                    <p>The website supports multiple users with each able to add, view, edit and delete their notes.</p>
+                    <p>The goal is to create a website where users can openly share their notes with everyone using unique keys.</p>
                     <p> </p>
                     <p style={{ fontSize: '0.7em' }}>STATUS: UNDER DEVELOPMENT</p>
                     <div className="screenshots-container">
@@ -215,7 +214,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <p>Babylon (working name) is a language-learning Android app developed using React Native.</p>
-                    <p>The app uses flashback cards to provide a smooth and hassle-free vocabulary learning experience.</p>
+                    <p>The app uses flashcards to provide a smooth and hassle-free vocabulary learning experience.</p>
                     <p>Babylon is currently in early development and is not yet available on the Google Play Store.</p>
                     <p> </p>
                     <p style={{ fontSize: '0.7em' }}>STATUS: ACTIVE DEVELOPMENT</p>

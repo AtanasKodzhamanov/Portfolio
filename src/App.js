@@ -6,12 +6,20 @@ import Projects from './components/Projects';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import { useLocation } from 'react-router-dom';
+/* animated, useSpring, config are used for the fade in animation */
 import { animated, useSpring, config } from 'react-spring';
 
 const useInView = (ref) => {
+  /* inView is a boolean that is true when the element is in view */
   const [inView, setInView] = useState(false);
 
   useEffect(() => {
+    /* The Intersection Observer provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport */
+    /* Useful for: 
+      - Lazy-loading of images or other content as a page is scrolled.
+      - Implementing 'infinite scrolling' web sites, where more and more content is loaded and rendered as you scroll, so that the user doesn't have to click through lots of pages.
+      - Reporting visibility of advertisements in order to calculate ad revenues.
+      - Deciding whether or not to perform tasks or animation processes based on whether or not the user will see the result. */
     const observer = new IntersectionObserver(
       ([entry]) => {
         setInView(entry.isIntersecting);
@@ -46,7 +54,6 @@ function App() {
   const inView2 = useInView(ref2);
   const inView3 = useInView(ref3);
   const inView4 = useInView(ref4);
-
 
   const animation1 = useSpring({ opacity: inView1 ? 1 : 0.2, config: config.slow });
   const animation2 = useSpring({ opacity: inView2 ? 1 : 0.2, config: config.slow });

@@ -57,7 +57,7 @@ const Projects = () => {
                     <p>The website content is managed by the shelter through Django's admin panel.</p>
                     <p>Have a look at the website and consider adopting!  </p>
                     <p> </p>
-                    <p style={{ fontSize: '0.7em' }}>STATUS: MAINTENANCE AND OCCASIONAL IMPROVEMENTS</p>
+                    <p style={{ fontSize: '0.7em' }}>STATUS: MAINTENANCE AND IMPROVEMENTS</p>
                     <div className="screenshots-container">
                         <h3>Project Screenshots</h3>
                         <div className="screenshots">
@@ -153,6 +153,18 @@ const Projects = () => {
                     <p>The goal is to create a website where users can share notes with everyone else using unique keys.</p>
                     <p> </p>
                     <p style={{ fontSize: '0.7em' }}>STATUS: UNDER DEVELOPMENT</p>
+                    <div className="screenshots-container">
+                        <h3>Project Screenshots</h3>
+                        <div className="screenshots" style={{ flexDirection: 'column' }}>
+                            <div className="screenshot">
+                                <img src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1685643942/atanas/Screenshot1_ms5fd0.webp" alt="screenshot5" />
+                            </div>
+                            <div className="screenshot">
+                                <img src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1685643943/atanas/Screenshot2_yynjv8.webp" alt="screenshot1" />
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </section>
 
@@ -185,6 +197,28 @@ const Projects = () => {
                     <p>This portfolio website was created using ReactJS. </p>
                     <p> </p>
                     <p style={{ fontSize: '0.7em' }}>STATUS: MAINTENANCE</p>
+                </div>
+            </section>
+            <section className="project">
+                <div>
+                    <div className="title-icons">
+                        <h2>Babylon</h2>
+                        <div className="icons">
+                            <br></br>
+                            <FontAwesomeIcon
+                                icon={faReact}
+                                size="3x"
+                                style={{ color: "#2c3e50" }}
+                            />
+                            <br>
+                            </br>
+                        </div>
+                    </div>
+                    <p>Babylon (working name) is a language-learning Android app developed using React Native.</p>
+                    <p>The app uses flashback cards to provide a smooth and hassle-free vocabulary learning experience.</p>
+                    <p>Babylon is currently in early development and is not yet available on the Google Play Store.</p>
+                    <p> </p>
+                    <p style={{ fontSize: '0.7em' }}>STATUS: ACTIVE DEVELOPMENT</p>
                 </div>
             </section>
             <section className="project">

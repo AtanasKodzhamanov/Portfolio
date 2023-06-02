@@ -25,7 +25,7 @@ const About = () => {
                 </div>
                 <div className="about-links-container">
                     <h3>Software Engineer and Economist</h3>
-                    <a href="mailto:kodzhamanov@gmail.com">kodzhamanov@gmail.com</a>
+                    <a href="mailto:messageatanas@gmail.com">Email</a>
                 </div>
             </div>
             <div className="about-content">

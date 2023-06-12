@@ -53,8 +53,9 @@ const Projects = () => {
                     <a href="https://www.donadogs.com/en/">www.donadogs.org</a>
 
                     <p>DonaDogs was my first major Django project that was inspired by the needs of a dog rescue in a small Bulgarian town. Since its release in January 2023, the website has increased the number of virtual sponsors from a handful to now having nearly all dogs virtually adopted, solving the shelter's perpetual lack of food problem and allowing them to expand the number of dogs they can take care of as well as improve the conditions they live in.</p>
-                    <p>The design of the website underwent multiple iterations with additional sections being added and the visuals constantly evolving. Through this website I learned a lot about Django, HTML and CSS as well as vanilla JavaScript. The app design and visuals are my own.</p>
-                    <p>The website content is managed by the shelter through Django's admin panel.</p>
+                    <p>The design of the website underwent multiple iterations with additional sections being added and the visuals constantly evolving. Through this website I learned a lot about Django, HTML and CSS as well as vanilla JavaScript.</p>
+                    <p>The website content is managed by the shelter through Django's admin panel. It allows the shelter to manage the database of dogs, add pictures, descriptions and allocate them in the appropriate category: sick, adopted, new, etc. Through the admin panel, the shelter can also add information boxes under each page and also control visuals such as applying different text/title/background color and the relative text positioning.</p>
+                    <p> </p>
                     <p>Have a look at the website and consider adopting!  </p>
                     <p> </p>
                     <p style={{ fontSize: '0.7em' }}>STATUS: MAINTENANCE AND IMPROVEMENTS</p>

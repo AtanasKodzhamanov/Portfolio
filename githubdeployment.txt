@@ -11,3 +11,7 @@ Once you're on the gh-pages branch, merge in any changes from your main branch u
 Finally, push your changes to the gh-pages branch to the remote repository using git push origin gh-pages. This will publish your website to GitHub Pages.
 
 Repeat this process each time you make updates to your main branch and want to publish them to the web.
+
+
+RAILWAY DEPLOYMENT
+https://help.railway.app/project-help/f9v3gkPQRy4UShk5SnoPDH/getting-your-create-react-app-running-on-railway/qHRsgxa5n57xLp1yVgk9fP

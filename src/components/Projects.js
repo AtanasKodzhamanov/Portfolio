@@ -63,13 +63,15 @@ const Projects = () => {
           <a href="https://www.donadogs.com/en/">www.donadogs.org</a>
 
           <p>
-            DonaDogs was my first major Django project that was inspired by the
-            needs of a dog rescue in a small Bulgarian town. Since its release
-            in January 2023, the website has increased the number of virtual
-            sponsors from a handful to now having nearly all dogs virtually
-            adopted, solving the shelter's perpetual lack of food problem and
-            allowing them to expand the number of dogs they can take care of as
-            well as improve the conditions they live in.
+            Inspired by the needs of a dog rescue in a small Bulgarian town,
+            DonaDogs was my first major project using Django. Since its launch
+            in January 2023, the website has had a transformative impact on the
+            rescue center's operations. Previously, only a handful of dogs had
+            virtual sponsors, now, nearly all of the dogs are virtually adopted.
+            This surge in sponsorship has solved the shelter's ongoing food
+            shortage, enabling them to not only increase the number of dogs they
+            can look after, but also significantly improve the conditions in
+            which these dogs live.
           </p>
           <p>
             The design of the website underwent multiple iterations with
@@ -86,8 +88,20 @@ const Projects = () => {
             control visuals such as applying different text/title/background
             color and the relative text positioning.
           </p>
+          <p>
+            The website is fully functional in its current state. However, I
+            have planned several improvements for the future. These include
+            improving the visuals and integrating a payment system once the
+            necessary documentation is obtained by the shelter. Additionally, I
+            aim to enhance the website's integration with the shelter's Facebook
+            page, Instagram account, and YouTube channel, as well as improve the
+            user experience on mobile devices.
+          </p>
           <p> </p>
-          <p>Have a look at the website and consider adopting! </p>
+          <p>
+            Meanwhile, have a look at the current version of the website and
+            consider adopting!{' '}
+          </p>
           <p> </p>
           <p style={{ fontSize: '0.7em' }}>
             STATUS: MAINTENANCE AND IMPROVEMENTS
@@ -164,7 +178,23 @@ const Projects = () => {
 
           <p>
             Construct-M is a freelance project developed for the needs of an
-            engineering consultancy. Built with ReactJS.{' '}
+            engineering consultancy, built with ReactJS.
+          </p>
+          <p>
+            The website aims to provide basic information about the company and
+            its services as well as showcase some of the projects they have
+            worked on.
+          </p>
+          <p>
+            Each of the pages contains parallax scrolling as well as transition
+            effects. The website is also able to render 3D models that users can
+            inspect, rotate and zoom in.
+          </p>
+          <p>
+            The project is temporary paused until the client provides the
+            necessary content such as descriptions, images and 3D models. The
+            design of the website is still being worked on and is subject to
+            change.
           </p>
           <p> </p>
           <p style={{ fontSize: '0.7em' }}>STATUS: ACTIVE DEVELOPMENT</p>
@@ -206,10 +236,10 @@ const Projects = () => {
           </div>
           <p>
             Itesica Notes is a note taking app and my first ReactJS project
-            (Django backend). The aim of this app was to practice and improve my
-            ReactJS skills while creating a product that can solve a personal
-            need of mine of having a note taking app that I can use to store
-            information on various topics in an easily accessible manner.
+            (with Django backend). The aim of this app was to practice and
+            improve my ReactJS skills while creating a product that can solve a
+            personal need of mine of having a note taking app that I can use to
+            store information on various topics in an easily accessible manner.
           </p>
           <p>
             The website supports multiple users with each able to add, view,
@@ -218,6 +248,10 @@ const Projects = () => {
           <p>
             The goal is to create a website where users can openly share their
             notes with everyone using unique keys.
+          </p>
+          <p>
+            The webapp is in early development with the design, functionality
+            and code being subject to constant change and improvement.
           </p>
           <p> </p>
           <p style={{ fontSize: '0.7em' }}>STATUS: UNDER DEVELOPMENT</p>
@@ -291,16 +325,20 @@ const Projects = () => {
             </div>
           </div>
           <p>
-            Babylon (working name) is a language-learning Android app developed
-            using React Native.
+            Babylon (working name) is a language-learning app developed using
+            React Native.
           </p>
           <p>
             The app uses flashcards to provide a smooth and hassle-free
             vocabulary learning experience.
           </p>
           <p>
-            Babylon is currently in early development and is not yet available
-            on the Google Play Store.
+            Babylon's core code is complete and I am currently focusing on
+            improving the design and user experience (using Figma), adding
+            animations, adding additional features as well as building the core
+            language content. The aim is to produce a unique, high quality
+            commercial product and publish it on the App Store and Google Play
+            in the next few months.
           </p>
           <p> </p>
           <p style={{ fontSize: '0.7em' }}>STATUS: ACTIVE DEVELOPMENT</p>

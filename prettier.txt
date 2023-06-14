@@ -1,0 +1,12 @@
+Create a .prettierrc file in your project root directory.
+
+{
+  "singleQuote": true,
+  "semi": false,
+  "tabWidth": 2,
+  "printWidth": 80,
+  "trailingComma": "es5",
+  "jsxBracketSameLine": false
+}
+
+npx prettier --write src/

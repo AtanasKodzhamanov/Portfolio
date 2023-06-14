@@ -1,102 +1,101 @@
-.education-school-box{
-    display:flex;
-    flex-direction:row;
-    padding-bottom:3rem;
+.education-school-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3rem;
 }
 
-img{
-    width:100%; 
-    height:100%; 
-    object-fit: cover;
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.tse-image{
-    flex:1.5;
+.tse-image {
+  flex: 1.5;
 }
 
-.tse-text{
-    flex:2;
-    padding-left: 3rem;
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
-    text-align: left;
+.tse-text {
+  flex: 2;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
 }
 
-.tse-text-first-half{
-    align-self:flex-start;
+.tse-text-first-half {
+  align-self: flex-start;
 }
-.tse-text-second-half{
-    align-self:flex-start;
-}
-
-.rhul-image{
-    flex:1;
+.tse-text-second-half {
+  align-self: flex-start;
 }
 
-.rhul-text{
-    flex:1;
-    padding-right: 3rem;
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
-    text-align: left;
+.rhul-image {
+  flex: 1;
 }
 
-.rhul-text-first-half{
-    align-self:flex-start;
-}
-.rhul-text-second-half{
-    align-self:flex-start;
-}
-
-.finance-box{
-    display:flex;
-    flex-direction:row;
-    padding-bottom:1rem;
+.rhul-text {
+  flex: 1;
+  padding-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
 }
 
-.finance-image{
-    flex:1;
+.rhul-text-first-half {
+  align-self: flex-start;
+}
+.rhul-text-second-half {
+  align-self: flex-start;
 }
 
-.finance-text{
-    flex:1;
-    padding-left: 3rem;
+.finance-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
 }
 
-.icons-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    gap: 3rem;
-    padding-top: 1rem;
+.finance-image {
+  flex: 1;
+}
+
+.finance-text {
+  flex: 1;
+  padding-left: 3rem;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 1rem;
 }
 
 @media (max-width: 768px) {
-    .icons-container{
-        justify-content: center;
-        gap:1rem;
-        flex-wrap:wrap;
-
-    }
+  .icons-container {
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
+}
 
-  @media (max-width: 480px) {
-    .education-school-box{
-        flex-direction: column;
-    }
-    .tse-text{
-        padding-left: 0px;
-    }
-    .rhul-text{
-        padding-right: 0px;
-    }
-    .finance-box{
-        flex-direction: column;
-    }
-    .finance-text{
-        padding-left: 0px;
-    }
+@media (max-width: 480px) {
+  .education-school-box {
+    flex-direction: column;
   }
+  .tse-text {
+    padding-left: 0px;
+  }
+  .rhul-text {
+    padding-right: 0px;
+  }
+  .finance-box {
+    flex-direction: column;
+  }
+  .finance-text {
+    padding-left: 0px;
+  }
+}

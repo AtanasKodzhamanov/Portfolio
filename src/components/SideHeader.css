@@ -1,18 +1,15 @@
-
-  
 .navbar {
-  position:fixed;
+  position: fixed;
   padding: 1rem;
   background-color: var(--primary-color);
   height: 100vh;
 }
 
 @media (max-width: 1000px) {
-  .navbar{
-    width: 100%; 
-    height:1rem;
+  .navbar {
+    width: 100%;
+    height: 1rem;
   }
-
 }
 
 .side-header {
@@ -24,17 +21,15 @@
   .side-header {
     flex-direction: row;
   }
-
 }
 
-  
 .side-header-links {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; 
+  gap: 1.5rem;
   margin: auto;
   align-items: center;
-  height: 50%; 
+  height: 50%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -46,7 +41,7 @@
     align-items: center;
   }
 }
-  
+
 .portrait img {
   display: block;
   max-width: 14vw;
@@ -54,15 +49,14 @@
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid var(--border-color);
-    margin: auto;
-    margin-bottom: 4vw;
+  margin: auto;
+  margin-bottom: 4vw;
   margin-top: 4vw;
   align-self: center;
-
 }
 
 #hamburger-icon {
-  display:none;
+  display: none;
 }
 
 .side-header-links a {
@@ -73,38 +67,35 @@
   letter-spacing: 0.3vw; /* scales with the viewport width */
 }
 
+.side-header-links a:hover {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+  cursor: pointer;
+}
 
-
-  .side-header-links a:hover {
-    color: white;
-    font-weight: bold;
-    letter-spacing: 0.25rem;
-    cursor: pointer;
-  }
-  
-
-  .side-header-links a.active {
-    color: white;
-    font-weight: bold;
-  }
+.side-header-links a.active {
+  color: white;
+  font-weight: bold;
+}
 
 /* Sidebar */
 /* The side navigation menu */
 .mobile-nav {
-  display:none;
+  display: none;
   height: 100%; /* 100% Full-height */
   width: 0; /* this is controlled within the component */
   position: fixed; /* stay in place */
   z-index: 1; /* stay on top */
-  top: 0; 
+  top: 0;
   left: 0;
   background-color: rgba(2, 2, 2);
-  overflow-x: hidden; 
-  transition: 0.2s; 
+  overflow-x: hidden;
+  transition: 0.2s;
 }
 
 /* The navigation menu links */
-.mobile-nav a{
+.mobile-nav a {
   text-decoration: none;
   transition: 0.3s;
 }
@@ -116,7 +107,7 @@
   font-size: clamp(1.5rem, 2.5vw, 2rem);
   letter-spacing: 1vw; /* Adjust the value as needed */
   color: white;
-  margin-left:1rem;
+  margin-left: 1rem;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -126,15 +117,14 @@
 
 /* Style the hamburger icon */
 @media screen and (max-width: 1000px) {
-  .portrait img{
+  .portrait img {
     display: none;
   }
-  #hamburger-icon{
+  #hamburger-icon {
     display: block;
   }
-  .mobile-nav{
-    display:flex;
+  .mobile-nav {
+    display: flex;
     flex-direction: column;
   }
-
 }

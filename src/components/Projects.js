@@ -174,7 +174,7 @@ const Projects = () => {
                             />
                         </div>
                     </div>
-                    <a href="https://wwwconsult-mcom-production.up.railway.app/">www.construct-m.com</a>
+                    <a href="https://www.construct-m.com/">www.construct-m.com</a>
 
                     <p>
                         Construct-M is a freelance project developed for the needs of an

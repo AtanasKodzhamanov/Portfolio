@@ -146,6 +146,68 @@ const Projects = () => {
             <section className="project">
                 <div>
                     <div className="title-icons">
+                        <h2>Know Thy Art</h2>
+
+                        <div className="icons">
+                            <br></br>
+                            <FontAwesomeIcon
+                                icon={faReact}
+                                size="3x"
+                                style={{ color: '#2c3e50' }}
+                            />
+                            <FontAwesomeIcon
+                                icon={faCss3}
+                                size="3x"
+                                style={{ color: '#2c3e50' }}
+                            />
+                            <br></br>
+                            <FontAwesomeIcon
+                                icon={faGithub}
+                                size="3x"
+                                style={{ color: '#2c3e50' }}
+                                onClick={() =>
+                                    window.open(
+                                        'https://github.com/AtanasKodzhamanov/www.KnowThy.Art',
+                                        '_blank'
+                                    )
+                                }
+                            />
+                        </div>
+                    </div>
+                    <a href="https://www.knowthy.art/">www.KnowThy.Art</a>
+
+                    <p> This is a guessing game where players try to identify the artist whose style inspired a newly created painting. </p>
+                    <p> The game is built with React for the frontend and Django for the APIs. The data is stored in a PostgreSQL database that keeps the artist information and user scores.</p>
+                    <p> </p>
+                    <p style={{ fontSize: '0.7em' }}>STATUS: MAINTENANCE AND IMPROVEMENTS</p>
+                    <div className="screenshots-container">
+                        <h3>Project Screenshots</h3>
+                        <div className="screenshots">
+                            <div className="screenshot">
+                                <img
+                                    src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1689992137/atanas/Screenshot_2023-07-22_at_03.12.22_ljxvpr.webp"
+                                    alt="screenshot5"
+                                />
+                            </div>
+                            <div className="screenshot">
+                                <img
+                                    src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1689992137/atanas/Screenshot_2023-07-22_at_03.11.44_wsxude.webp"
+                                    alt="screenshot1"
+                                />
+                            </div>
+                            <div className="screenshot">
+                                <img
+                                    src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1689992137/atanas/Screenshot_2023-07-22_at_03.11.55_we6dhg.webp"
+                                    alt="screenshot2"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="project">
+                <div>
+                    <div className="title-icons">
                         <h2>Construct-m</h2>
 
                         <div className="icons">
@@ -198,6 +260,23 @@ const Projects = () => {
                     </p>
                     <p> </p>
                     <p style={{ fontSize: '0.7em' }}>STATUS: ACTIVE DEVELOPMENT</p>
+                    <div className="screenshots-container">
+                        <h3>Project Screenshots</h3>
+                        <div className="screenshots">
+                            <div className="screenshot">
+                                <img
+                                    src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.24.36_kk1vrn.webp"
+                                    alt="screenshot1"
+                                />
+                            </div>
+                            <div className="screenshot">
+                                <img
+                                    src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.24.58_tugemb.webp"
+                                    alt="screenshot2"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section className="project">
@@ -236,10 +315,13 @@ const Projects = () => {
                     </div>
                     <p>
                         Itesica Notes is a note taking app and my first ReactJS project
-                        (with Django backend). The aim of this app was to practice and
+                        (using Django for backend). The aim of this app was to practice and
                         improve my ReactJS skills while creating a product that can solve a
                         personal need of mine of having a note taking app that I can use to
                         store information on various topics in an easily accessible manner.
+                    </p>
+                    <p>
+                        The app allows for note nesting where each note can have multiple children notes. Notes are held into "notebooks" themselves for better organisation.
                     </p>
                     <p>
                         The website supports multiple users with each able to add, view,
@@ -247,11 +329,7 @@ const Projects = () => {
                     </p>
                     <p>
                         The goal is to create a website where users can openly share their
-                        notes with everyone using unique keys.
-                    </p>
-                    <p>
-                        The webapp is in early development with the design, functionality
-                        and code being subject to constant change and improvement.
+                        notebooks using unique keys. The webapp is in early development with the design, functionality and code being subject to constant change and improvement.
                     </p>
                     <p> </p>
                     <p style={{ fontSize: '0.7em' }}>STATUS: UNDER DEVELOPMENT</p>
@@ -260,21 +338,15 @@ const Projects = () => {
                         <div className="screenshots" style={{ flexDirection: 'column' }}>
                             <div className="screenshot">
                                 <img
-                                    src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1685643942/atanas/Screenshot1_ms5fd0.webp"
+                                    src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.37.04_c7id0e.webp"
                                     alt="screenshot5"
                                 />
                             </div>
-                            <div className="screenshot">
-                                <img
-                                    src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1685643943/atanas/Screenshot2_yynjv8.webp"
-                                    alt="screenshot1"
-                                />
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </section>
-
             <section className="project">
                 <div>
                     <div className="title-icons">

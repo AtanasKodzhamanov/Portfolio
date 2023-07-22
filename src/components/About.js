@@ -37,11 +37,10 @@ const About = () => {
         <p>
           Hello there! Welcome to my portfolio website. This is where I get to
           present some of the projects I've worked on and share my profile with
-          potential employers and collaborators.
+          potential employers and collaborators. I primarily work with Python and Javascript, using frameworks like Django and React. I also have several years of professional experience in SQL, SAS and STATA programming.
         </p>
         <p>
-          Take a look around and let's connect to see how we can work together
-          on something awesome!
+          Take a look around and if you are looking to hire a junior developer don't hesitate to get in touch.
         </p>
       </div>
       <div className="about-icons-container">

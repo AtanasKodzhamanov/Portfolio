@@ -104,13 +104,7 @@ function App() {
           </section>
         </div>
 
-        <div id="education" className="element">
-          <section ref={ref3}>
-            <animated.div style={animation3}>
-              <Education />
-            </animated.div>
-          </section>
-        </div>
+
 
         <div id="experience" className="element">
           <section ref={ref4}>
@@ -119,6 +113,16 @@ function App() {
             </animated.div>
           </section>
         </div>
+
+        <div id="education" className="element">
+          <section ref={ref3}>
+            <animated.div style={animation3}>
+              <Education />
+            </animated.div>
+          </section>
+        </div>
+
+
       </div>
     </div>
   )

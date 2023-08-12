@@ -40,7 +40,7 @@ const About = () => {
           potential employers and collaborators. I primarily work with Python and Javascript, using frameworks like Django and React. I also have several years of professional experience in SQL, SAS and STATA programming.
         </p>
         <p>
-          Take a look around and if you are looking to hire a junior developer don't hesitate to get in touch.
+          Take a look around and if you are looking to hire a React/Django developer don't hesitate to get in touch.
         </p>
       </div>
       <div className="about-icons-container">

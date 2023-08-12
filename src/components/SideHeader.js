@@ -36,20 +36,20 @@ function SideHeader() {
           <h3>Projects</h3>
         </Link>
         <Link
-          to="Education"
-          smooth={true}
-          duration={500}
-          onClick={() => setNavOpen(false)}
-        >
-          <h3>Education</h3>
-        </Link>
-        <Link
           to="Experience"
           smooth={true}
           duration={500}
           onClick={() => setNavOpen(false)}
         >
           <h3>Experience</h3>
+        </Link>
+        <Link
+          to="Education"
+          smooth={true}
+          duration={500}
+          onClick={() => setNavOpen(false)}
+        >
+          <h3>Education</h3>
         </Link>
       </div>
       <div className="side-header">
@@ -89,17 +89,6 @@ function SideHeader() {
             Projects
           </Link>
           <Link
-            className={activeLink === 'Education' ? 'active' : ''}
-            to="Education"
-            smooth={true}
-            duration={500}
-            spy={true}
-            onSetActive={() => setActiveLink('Education')}
-            onSetInactive={() => setActiveLink('')}
-          >
-            Education
-          </Link>
-          <Link
             className={activeLink === 'Experience' ? 'active' : ''}
             to="Experience"
             smooth={true}
@@ -109,6 +98,17 @@ function SideHeader() {
             onSetInactive={() => setActiveLink('')}
           >
             Experience
+          </Link>
+          <Link
+            className={activeLink === 'Education' ? 'active' : ''}
+            to="Education"
+            smooth={true}
+            duration={500}
+            spy={true}
+            onSetActive={() => setActiveLink('Education')}
+            onSetInactive={() => setActiveLink('')}
+          >
+            Education
           </Link>
         </div>
       </div>

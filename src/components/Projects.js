@@ -60,7 +60,7 @@ const Projects = () => {
                             />
                         </div>
                     </div>
-                    <a href="https://www.donadogs.com/en/" target="_blank">www.donadogs.org</a>
+                    <a href="https://www.donadogs.com/en/" rel="noreferrer" target="_blank">www.donadogs.org</a>
                     <p>
                         Inspired by the needs of a dog rescue in a small Bulgarian town,
                         DonaDogs was my first major project using Django. Since its launch
@@ -154,7 +154,7 @@ const Projects = () => {
                             />
                         </div>
                     </div>
-                    <a href="https://www.knowthy.art/" target="_blank">www.KnowThy.Art</a>
+                    <a href="https://www.knowthy.art/" rel="noreferrer" target="_blank">www.KnowThy.Art</a>
 
                     <p> This is a guessing game where players try to identify the artist whose style inspired a newly created painting. </p>
                     <p> The game is built with React for the frontend and Django for the APIs. The data is stored in a PostgreSQL database that keeps the artist information and user scores.</p>
@@ -287,7 +287,7 @@ const Projects = () => {
                             />
                         </div>
                     </div>
-                    <a href="https://www.construct-m.com/" target="_blank">www.construct-m.com</a>
+                    <a href="https://www.construct-m.com/" rel="noreferrer" target="_blank">www.construct-m.com</a>
 
                     <p>
                         Construct-M is a freelance project developed for the needs of an

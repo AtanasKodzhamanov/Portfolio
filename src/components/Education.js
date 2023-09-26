@@ -68,20 +68,16 @@ const Education = () => {
           I have experience with a variety of programming languages, including
           Python, SAS, SQL, STATA, JavaScript and C#. I have used these
           languages to develop a range of applications and solve complex
-          problems on both professional and hobby projects. I am always looking
-          to improve my programming skills, learn new technologies and expand my
-          skillset in the field of programming.{' '}
+          problems on both professional and hobby projects.
         </p>
         <p>My formal programming education comprises of:</p>
         <ul>
           <li>
-            Software University (SoftUni): 2-3 month long modules in Python,
-            Django, ReactJS, C#, JavaScript, SQL, HTML and CSS. Software
+            Software University (SoftUni): multiple 3-month long modules in Python,
+            Django, ReactJS, JavaScript, SQL, HTML and CSS. Software
             University (SoftUni) is an educational institution that offers a
             wide range of courses and programs in software development and
-            computer science. I have covered 2-3month long modules in Django,
-            Python, C#, JavaScript and SPAs, HTML and CSS. All courses are
-            practical and combine lectures from professionals as well as weekly
+            computer science. All courses are practical and combine lectures from professionals with weekly
             problem sets and a final exam/project.
           </li>
           <li>Formal training and certifications in SAS and SAS SQL</li>

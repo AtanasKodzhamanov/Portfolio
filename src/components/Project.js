@@ -1,14 +1,23 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import {
-    faGithub,
-    faPython,
-    faJsSquare,
-    faReact,
-    faCss3,
-    faHtml5,
-} from '@fortawesome/free-brands-svg-icons'
 
+/* PROJECT STRUCTURE
+{
+    projectName: '',
+    websiteName: '',
+    websiteLink: '',
+    iconsList: [
+        {
+            iconTitle: faPython,
+            iconLink: null,
+        },
+    ],
+    description: [
+
+    ],
+    status: ,
+    screenshots: [],
+},
+*/
 
 const Project = ({ project }) => {
     const icons = project.iconsList.map((iconObj, index) => {

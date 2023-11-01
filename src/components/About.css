@@ -11,8 +11,9 @@
   }
 }
 
+
 .name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -39,11 +40,15 @@
   font-weight: 600;
 }
 
-.about-icons-container {
+
+.about-content{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  gap:10px;
   align-items: center;
-  gap: 3rem;
-  padding-top: 2rem;
+}
+
+.mini-projects-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }

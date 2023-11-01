@@ -8,6 +8,8 @@ import Experience from './components/Experience'
 import { useLocation } from 'react-router-dom'
 /* animated, useSpring, config are used for the fade in animation */
 import { animated, useSpring, config } from 'react-spring'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const useInView = (ref) => {
   /* inView is a boolean that is true when the element is in view */
@@ -54,20 +56,16 @@ function App() {
   const inView4 = useInView(ref4)
 
   const animation1 = useSpring({
-    opacity: inView1 ? 1 : 0.2,
-    config: config.slow,
+    opacity: inView1 ? 1 : 1,
   })
   const animation2 = useSpring({
-    opacity: inView2 ? 1 : 0.2,
-    config: config.slow,
+    opacity: inView2 ? 1 : 1,
   })
   const animation3 = useSpring({
-    opacity: inView3 ? 1 : 0.2,
-    config: config.slow,
+    opacity: inView3 ? 1 : 1,
   })
   const animation4 = useSpring({
-    opacity: inView4 ? 1 : 0.2,
-    config: config.slow,
+    opacity: inView4 ? 1 : 1,
   })
 
   const location = useLocation()
@@ -121,6 +119,31 @@ function App() {
         </div>
 
 
+      </div>
+      <div className="about-icons-container">
+        <div>
+          <FontAwesomeIcon
+            icon={faGithub}
+            size="6x"
+            style={{ color: '#2c3e50' }}
+            onClick={() =>
+              window.open('https://github.com/AtanasKodzhamanov/', '_blank')
+            }
+          />
+        </div>
+        <div>
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            size="6x"
+            style={{ color: '#2c3e50' }}
+            onClick={() =>
+              window.open(
+                'https://www.linkedin.com/in/atanas-kodzhamanov/',
+                '_blank'
+              )
+            }
+          />
+        </div>
       </div>
     </div>
   )

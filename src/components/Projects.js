@@ -10,7 +10,7 @@ const Projects = () => {
 
     return (
         <Element name="Projects" className="section">
-            <h1>Projects</h1>
+            <h1 className="special-title">PROJECTS</h1>
 
             {projectsData.map((project, index) => (
                 <section key={index} className="project">

@@ -25,7 +25,7 @@ function SideHeader() {
           duration={500}
           onClick={() => setNavOpen(false)}
         >
-          <h3>About</h3>
+          <h3 >About</h3>
         </Link>
         <Link
           to="Projects"
@@ -53,41 +53,33 @@ function SideHeader() {
         </Link>
       </div>
       <div className="side-header">
-        <div className="portrait">
-          <a
-            href="https://www.linkedin.com/in/atanas-kodzhamanov/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              alt="portrait"
-              src="https://res.cloudinary.com/dxwb5ejff/image/upload/v1686708927/atanas/Moi_vfzxw3.jpg"
-            />
-          </a>
-        </div>
         <div className="side-header-links">
-          <Link
-            className={activeLink === 'About' ? 'active' : ''}
-            to="About"
-            smooth={true}
-            duration={500}
-            spy={true}
-            onSetActive={() => setActiveLink('About')}
-            onSetInactive={() => setActiveLink('')}
-          >
-            About
-          </Link>
-          <Link
-            className={activeLink === 'Experience' ? 'active' : ''}
-            to="Experience"
-            smooth={true}
-            duration={500}
-            spy={true}
-            onSetActive={() => setActiveLink('Experience')}
-            onSetInactive={() => setActiveLink('')}
-          >
-            Experience
-          </Link>
+          <div>
+            <Link
+              className={activeLink === 'About' ? 'active' : ''}
+              to="About"
+              smooth={true}
+              duration={500}
+              spy={true}
+              onSetActive={() => setActiveLink('About')}
+              onSetInactive={() => setActiveLink('')}
+            >
+              About
+            </Link>
+          </div>
+          <div>
+            <Link
+              className={activeLink === 'Experience' ? 'active' : ''}
+              to="Experience"
+              smooth={true}
+              duration={500}
+              spy={true}
+              onSetActive={() => setActiveLink('Experience')}
+              onSetInactive={() => setActiveLink('')}
+            >
+              Experience
+            </Link>
+          </div>
           <Link
             className={activeLink === 'Projects' ? 'active' : ''}
             to="Projects"
@@ -99,17 +91,19 @@ function SideHeader() {
           >
             Projects
           </Link>
-          <Link
-            className={activeLink === 'Education' ? 'active' : ''}
-            to="Education"
-            smooth={true}
-            duration={500}
-            spy={true}
-            onSetActive={() => setActiveLink('Education')}
-            onSetInactive={() => setActiveLink('')}
-          >
-            Education
-          </Link>
+          <div>
+            <Link
+              className={activeLink === 'Education' ? 'active' : ''}
+              to="Education"
+              smooth={true}
+              duration={500}
+              spy={true}
+              onSetActive={() => setActiveLink('Education')}
+              onSetInactive={() => setActiveLink('')}
+            >
+              Education
+            </Link>
+          </div>
         </div>
       </div>
       <div id="hamburger-icon" onClick={toggleNav}>

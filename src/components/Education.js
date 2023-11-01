@@ -29,7 +29,7 @@ const Education = () => {
 
   return (
     <Element name="Education" className="section">
-      <h1>Education and Experience</h1>
+      <h1 className="special-title">EDUCATION</h1>
       <br></br>
       <div>
         <h2>Programming</h2>

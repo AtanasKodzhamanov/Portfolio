@@ -1,8 +1,12 @@
 .navbar {
-  position: fixed;
-  padding: 1rem;
-  background-color: var(--primary-color);
-  height: 100vh;
+  position:sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem;
+  top:0;
+  background-color: white;
+  width: 55vw;
 }
 
 @media (max-width: 1000px) {
@@ -14,7 +18,9 @@
 
 .side-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  min-width: 100%;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1000px) {
@@ -25,11 +31,10 @@
 
 .side-header-links {
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  flex-direction: row;
+  gap: 6rem;
   margin: auto;
   align-items: center;
-  height: 50%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -42,18 +47,7 @@
   }
 }
 
-.portrait img {
-  display: block;
-  max-width: 14vw;
-  max-height: 14vw;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid var(--border-color);
-  margin: auto;
-  margin-bottom: 4vw;
-  margin-top: 4vw;
-  align-self: center;
-}
+
 
 #hamburger-icon {
   display: none;
@@ -61,21 +55,22 @@
 
 .side-header-links a {
   text-decoration: none;
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
   color: var(--text-color);
   font-size: 1.5rem; /* scales with the viewport width */
   font-weight: bold;
-  letter-spacing: 0.3vw; /* scales with the viewport width */
+  letter-spacing: 0.5vw; /* scales with the viewport width */
 }
 
 .side-header-links a:hover {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
-  letter-spacing: 0.25rem;
   cursor: pointer;
 }
 
 .side-header-links a.active {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 

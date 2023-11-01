@@ -96,20 +96,18 @@ function App() {
           </section>
         </div>
 
-        <div id="projects" className="element">
-          <section ref={ref2}>
-            <animated.div style={animation2}>
-              <Projects />
-            </animated.div>
-          </section>
-        </div>
-
-
-
         <div id="experience" className="element">
           <section ref={ref4}>
             <animated.div style={animation4}>
               <Experience />
+            </animated.div>
+          </section>
+        </div>
+
+        <div id="projects" className="element">
+          <section ref={ref2}>
+            <animated.div style={animation2}>
+              <Projects />
             </animated.div>
           </section>
         </div>

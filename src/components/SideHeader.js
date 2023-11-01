@@ -78,17 +78,6 @@ function SideHeader() {
             About
           </Link>
           <Link
-            className={activeLink === 'Projects' ? 'active' : ''}
-            to="Projects"
-            smooth={true}
-            duration={500}
-            spy={true}
-            onSetActive={() => setActiveLink('Projects')}
-            onSetInactive={() => setActiveLink('')}
-          >
-            Projects
-          </Link>
-          <Link
             className={activeLink === 'Experience' ? 'active' : ''}
             to="Experience"
             smooth={true}
@@ -98,6 +87,17 @@ function SideHeader() {
             onSetInactive={() => setActiveLink('')}
           >
             Experience
+          </Link>
+          <Link
+            className={activeLink === 'Projects' ? 'active' : ''}
+            to="Projects"
+            smooth={true}
+            duration={500}
+            spy={true}
+            onSetActive={() => setActiveLink('Projects')}
+            onSetInactive={() => setActiveLink('')}
+          >
+            Projects
           </Link>
           <Link
             className={activeLink === 'Education' ? 'active' : ''}

@@ -279,8 +279,8 @@ const Projects = () => {
             <h1>Projects</h1>
 
             {projects.map((project, index) => (
-                <section className="project">
-                    <Project key={index} project={project} />
+                <section key={index} className="project">
+                    <Project project={project} />
                 </section>
             ))}
 

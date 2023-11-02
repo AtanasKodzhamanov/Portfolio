@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+  
+  p {
+      color: var(--text-color);
+      font-weight: 700;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      font-family: var(--font-p);
+    }
+  a {
+    font-family: var(--font-one);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+  }
+  
+  h1 {
+    font-family: var(--font-one);
+    color: var(--primary-color);
+    font-size: 3rem;
+    letter-spacing: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  h2 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: var(--primary-color);
+    font-family: var(--font-one);
+    letter-spacing: 2px;
+  }
+  
+  h3 {
+    color: var(--subtitle-color);
+    font-family: var(--font-one);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style-type: square;
+  }
+  
+  li {
+    color: var(--text-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  

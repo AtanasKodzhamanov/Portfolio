@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react'
-import './App.css' // Import the CSS file
+import styles from "./App.module.css"
 import SideHeader from './components/SideHeader'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -10,6 +10,7 @@ import { useLocation } from 'react-router-dom'
 import { animated, useSpring, config } from 'react-spring'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import "./global.css"
 
 const useInView = (ref) => {
   /* inView is a boolean that is true when the element is in view */
@@ -82,11 +83,11 @@ function App() {
   }, [location])
 
   return (
-    <div className="page-body">
+    <div className={styles.pageBody}>
       <SideHeader />
 
-      <div className="content-container">
-        <div id="about" className="element">
+      <div className={styles.contentContainer}>
+        <div id="about">
           <section ref={ref1}>
             <animated.div style={animation1}>
               <About />
@@ -94,7 +95,7 @@ function App() {
           </section>
         </div>
 
-        <div id="experience" className="element">
+        <div id="experience">
           <section ref={ref4}>
             <animated.div style={animation4}>
               <Experience />
@@ -102,7 +103,7 @@ function App() {
           </section>
         </div>
 
-        <div id="projects" className="element">
+        <div id="projects">
           <section ref={ref2}>
             <animated.div style={animation2}>
               <Projects />
@@ -110,7 +111,7 @@ function App() {
           </section>
         </div>
 
-        <div id="education" className="element">
+        <div id="education">
           <section ref={ref3}>
             <animated.div style={animation3}>
               <Education />
@@ -120,7 +121,7 @@ function App() {
 
 
       </div>
-      <div className="about-icons-container">
+      <div className={styles.aboutIconsContainer}>
         <div>
           <FontAwesomeIcon
             icon={faGithub}

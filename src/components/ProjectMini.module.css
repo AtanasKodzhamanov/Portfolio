@@ -1,0 +1,57 @@
+.projectMini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: 2px solid black;
+    aspect-ratio: 5 / 3;
+    padding: 5%;
+}
+
+.projectMini:hover {
+    cursor: pointer;
+}
+
+.projectMini img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.projectNameAndDesc{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.projectNameAndDesc h2,p{
+    z-index: 1;
+    margin:0;
+    padding: 0;
+    color:rgb(194, 194, 194);
+}
+.projectMini img{
+    transition: all 0.6s ease;  
+}
+
+.projectMini:hover img {
+    opacity: 0.2;  /* Darken the image */
+}
+
+.projectMini:hover .projectNameAndDesc{
+    opacity: 1;
+    display: inline-block;
+    color: white; 
+    z-index: 2;
+}
+
+.projectNameAndDesc{
+    transition: all 1s ease;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import styles from './About.module.css'
 /* contains brand logos to be imported in library */
 import {
   faGithub,
@@ -23,38 +23,50 @@ const About = () => {
   /* add google analytics for page tracking */
   useGoogleAnalytics()
 
+  const projectsOrder = {
+    "DonaDogs": 0,
+    "Know Thy Art": 1,
+    "Walks Of Life": 2,
+    "Construct-M": 3,
+    "Itesica Notes": 4,
+    "Planetary Defence": 5,
+    "Babylon": 6,
+    "This portfolio website": 7,
+    "EOA": 8
+  };
+
+  const sortedProjectsData = [...projectsData].sort((a, b) => projectsOrder[a.projectName] - projectsOrder[b.projectName]);
+
   return (
     /* Element is used for smooth scrolling to this section. To make it work you have to wrap the section with the component and name it. In the navigation use Link to link to the name of the element. */
     <Element name="About" className="section">
 
-      <div className="about-content">
+      <div className={styles.aboutContent}>
         <div>
-          <h1 className="special-title">
+          <h1>
             FULL-STACK DEVELOPER
           </h1>
-
-
           <h2>
             Hi, my name is Atanas.
-          </h2><h2>I am a full-stack React (JavaScript) and Django (Python) developer. I also have several years of professional experience in SQL, SAS and STATA programming and economics consulting.
           </h2>
-
+          <h2>
+            I am a full-stack React (JavaScript) and Django (Python) developer. I also have several years of professional experience in SQL, SAS and STATA programming and economics consulting.
+          </h2>
           <h2>
             Take a look around and if you are looking to hire a React/Django developer don't hesitate to get in touch.
-
           </h2>
           <br></br>
-          <div className="about-links-container">
+          <div className={styles.aboutLinksContainer}>
             <a href="mailto:messageatanas@gmail.com">Feel free to send me an Email</a>
           </div>
 
         </div>
       </div>
-      <div className="mini-projects-section">
-        {projectsData.map((project, index) => (
-          <section key={index} className="project">
+      <div className={styles.miniProjectsSection}>
+        {sortedProjectsData.map((project, index) => (
+          <div key={index}>
             <ProjectMini project={project} />
-          </section>
+          </div>
         ))}
       </div>
     </Element>

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #9f9f9f;
+  --accent-color: #cc4337;
+  --border-color: #454e57;
+  --text-color: #868e96;
+  --subtitle-color: #50502c;
+  box-sizing: border-box;
+  --font-one: 'Bebas Neue', sans-serif;
+  --font-p: 'Sofia Sans', sans-serif;
+}
+
+.pageBody {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin:40px;
+  border: 2px solid #2a2525;
+  align-items: center;
+  box-shadow: 0 0 2px #aaaaaa;
+}
+
+@media (max-width: 992px) {
+  .pageBody {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6vw;
+  padding-top: 0;
+  max-width: 1100px;
+}
+
+@media (max-width: 480px) {
+  .contentContainer {
+    margin: 0;
+    padding: 1rem;
+    max-width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .contentContainer {
+    margin: 0;
+    padding: 3rem;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .contentContainer {
+    margin: 0;
+    padding: 3rem;
+    max-width: 100%;
+  }
+}
+
+.fa-linkedin:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  cursor: pointer;
+}
+.fa-github:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.aboutIconsContainer {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  justify-content: flex-end;
+  padding:1rem;
+  gap: 2rem;
+  bottom:0;
+  width: 95%;
+}

@@ -44,13 +44,10 @@ const About = () => {
       <div className={styles.aboutContent}>
         <div>
           <h1>
-            FULL-STACK DEVELOPER
+            Hey, my name is Atanas
           </h1>
           <h2>
-            Hi, my name is Atanas.
-          </h2>
-          <h2>
-            I am a full-stack React (JavaScript) and Django (Python) developer. I also have several years of professional experience in SQL, SAS and STATA programming and economics consulting.
+            I am a full-stack <strong>React</strong> (JavaScript) and <strong>Django</strong> (Python) developer. I also have several years of professional experience in SQL, SAS and STATA programming and economics consulting.
           </h2>
           <h2>
             Take a look around and if you are looking to hire a React/Django developer don't hesitate to get in touch.

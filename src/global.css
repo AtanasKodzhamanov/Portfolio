@@ -3,7 +3,7 @@
 
   
   p {
-      color: var(--text-color);
+      color: var(--text-color) !important;
       font-weight: 700;
       line-height: 1.5;
       margin-bottom: 20px;
@@ -14,7 +14,7 @@
     font-family: var(--font-one);
     letter-spacing: 1px;
     font-size: 1.5rem;
-    color: var(--accent-color);
+    color: var(--secondary-color);
   }
   
   h1 {
@@ -33,7 +33,7 @@
   h2 {
     margin-bottom: 0px;
     padding-bottom: 0px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: var(--font-one);
     letter-spacing: 2px;
   }
@@ -55,3 +55,10 @@
     margin-bottom: 20px;
   }
   
+  strong{
+    color: var(--primary-color);
+  }
+
+  .section{
+    margin-bottom:10rem;
+  }

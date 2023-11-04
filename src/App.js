@@ -125,8 +125,8 @@ function App() {
         <div>
           <FontAwesomeIcon
             icon={faGithub}
-            size="6x"
-            style={{ color: '#2c3e50' }}
+            size="5x"
+            style={{ color: '#091a06', cursor: "pointer" }}
             onClick={() =>
               window.open('https://github.com/AtanasKodzhamanov/', '_blank')
             }
@@ -135,8 +135,8 @@ function App() {
         <div>
           <FontAwesomeIcon
             icon={faLinkedin}
-            size="6x"
-            style={{ color: '#2c3e50' }}
+            size="5x"
+            style={{ color: '#091a06', cursor: "pointer" }}
             onClick={() =>
               window.open(
                 'https://www.linkedin.com/in/atanas-kodzhamanov/',

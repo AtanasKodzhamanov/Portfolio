@@ -54,7 +54,7 @@ const About = () => {
           </h2>
           <br></br>
           <div className={styles.aboutLinksContainer}>
-            <a href="mailto:messageatanas@gmail.com">Feel free to send me an Email</a>
+            <a href="mailto:messageatanas@gmail.com">Send me an Email</a>
           </div>
 
         </div>

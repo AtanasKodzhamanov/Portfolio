@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Slideshow from './Slideshow';
+import styles from "./Project.module.css"
 /* PROJECT STRUCTURE
 {
     projectName: '',
@@ -55,12 +56,10 @@ const Project = ({ project }) => {
                     STATUS: {project.status}
                 </p>
                 {project.screenshots &&
-                    <div className="screenshots-container">
+                    <>
                         <h3>Project Screenshots</h3>
-                        <div className="screenshots">
-                            <Slideshow screenshots={project.screenshots} />
-                        </div>
-                    </div>
+                        <Slideshow screenshots={project.screenshots} />
+                    </>
                 }
             </div>
         </section>

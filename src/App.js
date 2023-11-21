@@ -122,43 +122,7 @@ function App() {
             </animated.div>
           </section>
         </div>
-
-
       </div>
-
-      <div className={styles.aboutIconsContainer}>
-        <div>
-          <FontAwesomeIcon
-            icon={faGithub}
-            size="5x"
-            style={{ color: '#091a06', cursor: "pointer" }}
-            onClick={() =>
-              window.open('https://github.com/AtanasKodzhamanov/', '_blank')
-            }
-          />
-        </div>
-        <div>
-          <FontAwesomeIcon
-            icon={faLinkedin}
-            size="5x"
-            style={{ color: '#091a06', cursor: "pointer" }}
-            onClick={() =>
-              window.open(
-                'https://www.linkedin.com/in/atanas-kodzhamanov/',
-                '_blank'
-              )
-            }
-          />
-        </div>
-      </div>
-
-      <Link to={"about"} smooth={true} duration={500} offset={-50} className={styles.moveUpButton}>
-        <FontAwesomeIcon
-          icon={faCircleUp}
-          size="2x"
-          style={{ cursor: "pointer" }}
-        />
-      </Link>
     </div>
   )
 }

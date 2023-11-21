@@ -35,15 +35,7 @@
     margin: 0px;
   }
 }
-.screenshots {
-  height: 70vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  background-color: var(--primary-color);
-  padding:1rem;
-}
+
 
 @media (max-width: 480px) {
   .screenshots {

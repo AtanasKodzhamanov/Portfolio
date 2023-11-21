@@ -46,17 +46,26 @@ const About = () => {
           <h1>
             Hey, my name is Atanas
           </h1>
-          <h2>
-            I am a full-stack <strong>React</strong> (JavaScript) and <strong>Django</strong> (Python) developer with several years of professional experience in SQL, SAS and STATA programming and economics consulting
-          </h2>
-          <h2>
-            Take a look around and if you are looking to hire a React/Django developer don't hesitate to get in touch
-          </h2>
-          <br></br>
-          <div className={styles.aboutLinksContainer}>
-            <a href="mailto:messageatanas@gmail.com">Send me an Email</a>
+          <div className={styles.infoParas}>
+            <div className={styles.bubble}>
+              <h2>
+                I am a full-stack <strong>React</strong> (JavaScript) and <strong>Django</strong> (Python) developer
+              </h2>
+            </div>
+            <div className={styles.bubble}>
+              <h2>
+                with several years of professional experience in SQL, SAS and STATA programming and economics consulting
+              </h2>
+            </div>
           </div>
+          <div className={styles.bubble}>
+            <div className={styles.linksContainer}>
 
+              <a className={styles.link} href="https://www.linkedin.com/in/atanas-kodzhamanov/" target="_blank" rel="noreferrer">message me on <strong>linkedin</strong></a>
+              <a className={styles.link} href="mailto:messageatanas@gmail.com">Drop me an <strong>Email</strong></a>
+              <a className={styles.link} href="https://drive.google.com/file/d/1KHYGUJLIZA3rkQayvN6L_XrfxXn5MCQe/view?usp=sharing" target="_blank" rel="noreferrer">Download my <strong>CV</strong></a>
+              <a className={styles.link} href="https://github.com/AtanasKodzhamanov/" target="_blank" rel="noreferrer">Check out my <strong>github</strong></a>
+            </div></div>
         </div>
       </div>
       <div className={styles.miniProjectsSection}>

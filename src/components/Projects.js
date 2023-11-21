@@ -13,7 +13,7 @@ const Projects = () => {
             <h1 className="special-title">PROJECTS</h1>
 
             {projectsData.map((project, index) => (
-                <section key={index} className="project">
+                <section key={index} className="project" id={project.projectName}>
                     <Project project={project} />
                 </section>
             ))}

@@ -10,11 +10,14 @@ import { useLocation } from 'react-router-dom'
 import { animated, useSpring, config } from 'react-spring'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faCircleUp } from '@fortawesome/free-solid-svg-icons'
 import "./global.css"
+import { Link } from 'react-scroll'
 
 const useInView = (ref) => {
   /* inView is a boolean that is true when the element is in view */
   const [inView, setInView] = useState(false)
+
 
   useEffect(() => {
     /* The Intersection Observer provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport */
@@ -84,9 +87,10 @@ function App() {
 
   return (
     <div className={styles.pageBody}>
-      <SideHeader />
+
 
       <div className={styles.contentContainer}>
+        <SideHeader />
         <div id="about">
           <section ref={ref1}>
             <animated.div style={animation1}>
@@ -121,6 +125,7 @@ function App() {
 
 
       </div>
+
       <div className={styles.aboutIconsContainer}>
         <div>
           <FontAwesomeIcon
@@ -146,6 +151,14 @@ function App() {
           />
         </div>
       </div>
+
+      <Link to={"about"} smooth={true} duration={500} offset={-50} className={styles.moveUpButton}>
+        <FontAwesomeIcon
+          icon={faCircleUp}
+          size="2x"
+          style={{ cursor: "pointer" }}
+        />
+      </Link>
     </div>
   )
 }

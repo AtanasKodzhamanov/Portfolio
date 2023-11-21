@@ -2,6 +2,8 @@ import React from 'react'
 import { Element } from 'react-scroll'
 import useGoogleAnalytics from './useGoogleAnalytics'
 import './Experience.css'
+import "../global.css"
+
 
 const Experience = () => {
   useGoogleAnalytics()
@@ -9,6 +11,26 @@ const Experience = () => {
   return (
     <Element name="Experience" className="section">
       <h1 className="special-title">EXPERIENCE</h1>
+      <div>
+        <h2>Software Developer</h2>
+        <div className="company-date">
+          <h3>Freelance</h3>
+          <h3>2023 - Present</h3>
+        </div>
+
+        <div>
+          <p>
+            DonaDogs is a website that allows users to search for dogs available for adoption in Bulgaria.
+          </p>
+          <p>
+            Construct-M is a website for a construction company.
+          </p>
+          <p>
+            Internal React tools for a supply chain company.
+          </p>
+
+        </div>
+      </div>
       <div>
         <h2>Competition Economist</h2>
         <div className="company-date">

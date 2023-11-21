@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
 
-:root {
-  --primary-color: #091a06;
-  --secondary-color: #88866e;
-  --accent-color: #876d1a;
-  --text-color: #88866e;
-  --subtitle-color: #222b22;
-  --font-one: 'Bebas Neue', sans-serif;
-  --font-p: 'Sofia Sans', sans-serif;
-}
+
 
 .pageBody {
   position: relative;
@@ -79,4 +71,11 @@
   gap: 2rem;
   bottom:0;
   width: 95%;
+}
+
+.moveUpButton{
+  position: sticky;
+  display:flex;
+  bottom:0;
+  left: 0;
 }

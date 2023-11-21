@@ -47,10 +47,10 @@ const About = () => {
             Hey, my name is Atanas
           </h1>
           <h2>
-            I am a full-stack <strong>React</strong> (JavaScript) and <strong>Django</strong> (Python) developer. I also have several years of professional experience in SQL, SAS and STATA programming and economics consulting.
+            I am a full-stack <strong>React</strong> (JavaScript) and <strong>Django</strong> (Python) developer with several years of professional experience in SQL, SAS and STATA programming and economics consulting
           </h2>
           <h2>
-            Take a look around and if you are looking to hire a React/Django developer don't hesitate to get in touch.
+            Take a look around and if you are looking to hire a React/Django developer don't hesitate to get in touch
           </h2>
           <br></br>
           <div className={styles.aboutLinksContainer}>
@@ -62,7 +62,7 @@ const About = () => {
       <div className={styles.miniProjectsSection}>
         {sortedProjectsData.map((project, index) => (
           <div key={index}>
-            <ProjectMini project={project} />
+            <ProjectMini project={project} targetId={project.projectName} />
           </div>
         ))}
       </div>

@@ -1,12 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
+:root {
+  --primary-color: #091a06;
+  --secondary-color: #88866e;
+  --accent-color: #876d1a;
+  --text-color: #88866e;
+  --subtitle-color: #222b22;
+  --font-one: 'Bebas Neue', sans-serif;
+  --font-p: 'Sofia Sans', sans-serif;
+}
   
   p {
       color: var(--text-color) !important;
       font-weight: 700;
       line-height: 1.5;
-      margin-bottom: 20px;
+      margin-bottom: 20px !important;
       font-size: 1.5rem;
       font-family: var(--font-p);
     }
@@ -36,6 +44,7 @@
     color: var(--secondary-color);
     font-family: var(--font-one);
     letter-spacing: 2px;
+
   }
   
   h3 {

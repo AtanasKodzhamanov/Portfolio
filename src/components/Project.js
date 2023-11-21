@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import Slideshow from './Slideshow';
 /* PROJECT STRUCTURE
 {
     projectName: '',
@@ -58,6 +58,8 @@ const Project = ({ project }) => {
                     <div className="screenshots-container">
                         <h3>Project Screenshots</h3>
                         <div className="screenshots">
+                            <Slideshow screenshots={project.screenshots} />
+
                             {project.screenshots.map((screenshot, index) => {
                                 return (
                                     <div className="screenshot" key={index}>

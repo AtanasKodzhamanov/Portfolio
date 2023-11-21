@@ -67,6 +67,11 @@ const projectsData = [
             "A simulation strategy game made in a 10-day React hackaton"
         ],
         status: 'UNDER DEVELOPMENT',
+        screenshots: [
+            "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700575270/atanas/walks1_zurzun.webp",
+            "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700575268/atanas/walks2_sa7lyo.webp",
+            "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700575268/atanas/walks3_qmz8fr.webp"
+        ]
     },
     {
         projectName: 'Know Thy Art',
@@ -214,32 +219,6 @@ const projectsData = [
             "A language-learning app"
         ],
         status: "ACTIVE DEVELOPMENT"
-    },
-    {
-        projectName: "This portfolio website",
-        websiteName: "",
-        websiteLink: "",
-        iconsList: [
-            {
-                iconTitle: faReact,
-                iconLink: null,
-            },
-            {
-                iconTitle: faCss3,
-                iconLink: null,
-            },
-            {
-                iconTitle: faGithub,
-                iconLink: "",
-            },
-        ],
-        description: [
-            "This portfolio website was created using ReactJS.",
-        ],
-        shortDesc: [
-            "Old portfolio website"
-        ],
-        status: "MAINTENANCE",
     },
     {
         projectName: "EOA",

@@ -37,27 +37,23 @@
 .screenshots {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
+  background-color: var(--primary-color);
+  padding:1rem;
 }
 
 @media (max-width: 480px) {
   .screenshots {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
   }
 }
 
-.screenshot {
-  flex-basis: calc(50% - 1rem);
-}
 
 .screenshot img {
-  object-position: left;
-}
-
-.screenshot:first-child:nth-last-child(odd) {
-  flex-basis: 100%;
+  max-height: 80vh;
+  object-position: center;
 }
 
 .project {

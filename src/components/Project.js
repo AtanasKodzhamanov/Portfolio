@@ -56,10 +56,7 @@ const Project = ({ project }) => {
                     STATUS: {project.status}
                 </p>
                 {project.screenshots &&
-                    <>
-                        <h3>Project Screenshots</h3>
-                        <Slideshow screenshots={project.screenshots} />
-                    </>
+                    <Slideshow screenshots={project.screenshots} />
                 }
             </div>
         </section>

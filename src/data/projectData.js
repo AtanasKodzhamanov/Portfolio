@@ -61,12 +61,14 @@ const projectsData = [
             }
         ],
         description: [
-            'The app is currently in early development and the design, functionality and code are subject to constant change and improvement.',
+            'This ReactJS game is a twist on the classic Game of Life board game and was developed for a 10-day React hackaton.',
+            "As you move through the board you have to make strategic decisions that impact various aspects of your life—education, career, wealth, and family.",
+            "Each choice you make influences your overall success and happiness. Ignoring aspects of your life such as health can cause problems down the line or even get you killed. The game combines strategy, luck, and life simulation elements.",
         ],
         shortDesc: [
             "A simulation strategy game made in a 10-day React hackaton"
         ],
-        status: 'UNDER DEVELOPMENT',
+        status: 'ACTIVE DEVELOPMENT',
         screenshots: [
             "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700575270/atanas/walks1_zurzun.webp",
             "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700575268/atanas/walks2_sa7lyo.webp",
@@ -100,36 +102,6 @@ const projectsData = [
         ],
         status: 'MAINTENANCE AND IMPROVEMENTS',
         screenshots: ['https://res.cloudinary.com/dxwb5ejff/image/upload/v1689992137/atanas/Screenshot_2023-07-22_at_03.12.22_ljxvpr.webp', 'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689992137/atanas/Screenshot_2023-07-22_at_03.11.44_wsxude.webp', 'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689992137/atanas/Screenshot_2023-07-22_at_03.11.55_we6dhg.webp'],
-    },
-    {
-        projectName: 'Construct-M',
-        websiteName: 'www.construct-m.com',
-        websiteLink: 'https://www.construct-m.com',
-        iconsList: [
-            {
-                iconTitle: faReact,
-                iconLink: null,
-            },
-            {
-                iconTitle: faCss3,
-                iconLink: null,
-            },
-            {
-                iconTitle: faGithub,
-                iconLink: "https://github.com/AtanasKodzhamanov/www.construct-m.com"
-            },
-        ],
-        description: [
-            'Construct-M is a freelance project developed for the needs of an engineering consultancy, built with ReactJS.',
-            'The website aims to provide basic information about the company and its services as well as showcase some of the projects they have worked on.',
-            'Each of the pages contains parallax scrolling as well as transition effects. The website is also able to render 3D models that users can inspect, rotate and zoom in.',
-            'The project is temporary paused until the client provides the necessary content such as descriptions, images and 3D models.'
-        ],
-        shortDesc: [
-            "Construction engineering consultancy website"
-        ],
-        status: 'ON HOLD',
-        screenshots: ['https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.24.36_kk1vrn.webp', 'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.24.58_tugemb.webp'],
     },
     {
         projectName: 'Itesica Notes',
@@ -211,9 +183,10 @@ const projectsData = [
             },
         ],
         description: [
-            "Babylon (working name) is a language-learning app developed using React Native.",
+            "Babylon (temporary name) is a language-learning app developed using React Native.",
             "The app uses flashcards to provide a smooth and hassle-free vocabulary learning experience.",
-            "Babylon's core code is complete and I am currently focusing on improving the design and user experience (using Figma), adding animations, adding additional features as well as building the core language content. The aim is to produce a unique, high quality commercial product and publish it on the App Store and Google Play in the next few months.",
+            "Babylon's core code is complete and I am currently focusing on improving the design and user experience, adding animations, adding additional features as well as expanding the language content.",
+            "The aim is to publish the app on both the App Store and Google Play."
         ],
         shortDesc: [
             "A language-learning app"
@@ -221,7 +194,7 @@ const projectsData = [
         status: "ACTIVE DEVELOPMENT"
     },
     {
-        projectName: "EOA",
+        projectName: "Edge Of Annihilation II",
         websiteName: "",
         websiteLink: "",
         iconsList: [
@@ -239,13 +212,45 @@ const projectsData = [
             },
         ],
         description: [
-            "EOA is a turn-based rougelike game developed using ReactJS with the goal of publishing the game on Steam by the end of the year.",
+            "EOA is a turn-based rougelike game developed using ReactJS.",
+            "The player has to destroy the enemy base while defending their own.",
+            "To do so the player has to manage their resources, select the appropriate units and position them strategically on the battlefield.",
         ],
         shortDesc: [
             "A turn-based rougelike game"
         ],
         status: "ACTIVE DEVELOPMENT",
         screenshots: ["https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.41.02_d9asi8.webp"],
+    },
+    {
+        projectName: 'Construct-M',
+        websiteName: 'www.construct-m.com',
+        websiteLink: 'https://www.construct-m.com',
+        iconsList: [
+            {
+                iconTitle: faReact,
+                iconLink: null,
+            },
+            {
+                iconTitle: faCss3,
+                iconLink: null,
+            },
+            {
+                iconTitle: faGithub,
+                iconLink: "https://github.com/AtanasKodzhamanov/www.construct-m.com"
+            },
+        ],
+        description: [
+            'Construct-M is a freelance project developed for the needs of an engineering consultancy, built with ReactJS.',
+            'The website aims to provide basic information about the company and its services as well as showcase some of the projects they have worked on.',
+            'Each of the pages contains parallax scrolling as well as transition effects. The website is also able to render 3D models that users can inspect, rotate and zoom in.',
+            'The project is temporary paused until the client provides the necessary content such as descriptions, images and 3D models.'
+        ],
+        shortDesc: [
+            "Construction engineering consultancy website"
+        ],
+        status: 'ON HOLD',
+        screenshots: ['https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.24.36_kk1vrn.webp', 'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.24.58_tugemb.webp'],
     },
 ]
 

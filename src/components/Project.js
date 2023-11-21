@@ -47,9 +47,15 @@ const Project = ({ project }) => {
                     </div>
                 </div>
                 <a href={project.websiteLink} rel="noreferrer" target="_blank">{project.websiteName}</a>
-                {project.description.map((paragraph, index) => {
-                    return <p key={index}>{paragraph}</p>
-                })}
+                <div className={styles.descriptionContainer}>
+
+
+                    {project.description.map((paragraph, index) => {
+                        return (
+                            < div className={styles.bubble} >
+                                <p key={index}>{paragraph}</p>
+                            </div>)
+                    })}</div>
                 <p> </p>
                 <p> </p>
                 <p style={{ fontSize: '0.7em' }}>
@@ -59,7 +65,7 @@ const Project = ({ project }) => {
                     <Slideshow screenshots={project.screenshots} />
                 }
             </div>
-        </section>
+        </section >
     )
 }
 

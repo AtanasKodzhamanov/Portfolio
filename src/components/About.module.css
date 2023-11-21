@@ -5,12 +5,14 @@
   align-items: center;
 }
 
+
 .linksContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
+  padding:2rem;
 }
 
 @media (max-width: 768px) {
@@ -37,7 +39,7 @@
 .miniProjectsSection{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 10px;
+  gap: 1rem;
   justify-items: space-between;
   align-items: center;
   margin-top:4rem;
@@ -58,9 +60,14 @@
 
 
 .bubble{
-  border:1px solid black;
+  border:2px solid black;
   border-radius:10px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;
+  background: linear-gradient(to right, #091a0619, #88866e00);
+}
+
+.bubble h2{
+  padding:3rem;
 }

@@ -22,6 +22,7 @@
 }
 
 .screenshots-container {
+  height: 100%;
   border:1px solid black;
   border-radius:10px;
   margin-top: 4rem;
@@ -35,6 +36,7 @@
   }
 }
 .screenshots {
+  height: 70vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

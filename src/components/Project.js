@@ -59,14 +59,6 @@ const Project = ({ project }) => {
                         <h3>Project Screenshots</h3>
                         <div className="screenshots">
                             <Slideshow screenshots={project.screenshots} />
-
-                            {project.screenshots.map((screenshot, index) => {
-                                return (
-                                    <div className="screenshot" key={index}>
-                                        <img src={screenshot} alt="screenshot" />
-                                    </div>
-                                )
-                            })}
                         </div>
                     </div>
                 }

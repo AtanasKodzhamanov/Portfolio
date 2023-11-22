@@ -40,9 +40,9 @@ const Project = ({ project }) => {
     return (
         <section className="project">
             <div>
-                <div className="title-icons">
+                <div className={styles.titleIcons}>
                     <h2>{project.projectName}</h2>
-                    <div className="icons">
+                    <div className={styles.icons}>
                         {icons}
                     </div>
                 </div>

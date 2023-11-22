@@ -76,7 +76,7 @@
 
 @media (max-width: 768px) {
   .bubble {
-    margin:0px;
+    margin-bottom:0.5rem;
     padding:0px;
   }
   .bubble h2{

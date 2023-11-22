@@ -9,7 +9,7 @@
   margin:40px;
   border: 2px solid var(--primary-color);
   align-items: center;
-  box-shadow: 0 0 500px #88866e;
+  box-shadow: 0 0 500px var(--secondary-color);
 }
 
 @media (max-width: 992px) {
@@ -54,15 +54,12 @@
   }
 }
 
-.fa-linkedin:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-  cursor: pointer;
-}
-.fa-github:hover {
-  transform: scale(1.2);
-  cursor: pointer;
+section{
+  margin-bottom:5rem;
 }
 
-
-
+@media screen and (max-width: 768px) {
+  section{
+    margin-bottom:2rem;
+  }
+}

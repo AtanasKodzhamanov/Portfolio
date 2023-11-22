@@ -23,3 +23,26 @@
 .descriptionContainer > div {
   break-inside: avoid; /* Prevents the item from being split across columns */
 }
+
+.titleIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .titleIcons {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+}

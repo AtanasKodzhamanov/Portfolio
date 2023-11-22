@@ -19,6 +19,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar{
+    margin-bottom: 0;
+  }
   .mobile-nav {
     flex-wrap: wrap;
     justify-content: space-between;

@@ -1,14 +1,14 @@
 .navbar {
-  position:sticky;
+  position: sticky;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  top:0;
+  top: 0;
   z-index: 3;
   min-width: 100%;
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
-  margin-bottom:100px;
+  margin-bottom: 100px;
 }
 
 .mobile-nav {
@@ -19,14 +19,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .navbar{
+  .navbar {
     margin-bottom: 0;
   }
   .mobile-nav {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
 }
 
 /* The navigation menu links */
@@ -43,9 +42,9 @@
   letter-spacing: 1vw; /* Adjust the value as needed */
   color: white;
   margin-left: 1rem;
-  padding-bottom:0;
-  padding-top:0;
-  margin:0;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0;
 }
 
 /* When you mouse over the navigation links, change their color */

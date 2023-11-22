@@ -1,7 +1,7 @@
 import React from 'react'
 import { Element } from 'react-scroll'
 import useGoogleAnalytics from './useGoogleAnalytics'
-import "../global.css"
+import '../global.css'
 import ExperienceBubble from './ExperienceBubble'
 import experienceData from '../data/experienceData'
 import styles from './Experience.module.css'

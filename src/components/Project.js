@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Slideshow from './Slideshow';
-import styles from "./Project.module.css"
+import Slideshow from './Slideshow'
+import styles from './Project.module.css'
 /* PROJECT STRUCTURE
 {
     projectName: '',
@@ -21,53 +21,48 @@ import styles from "./Project.module.css"
 */
 
 const Project = ({ project }) => {
-    const icons = project.iconsList.map((iconObj, index) => {
-        const props = {
-            icon: iconObj.iconTitle,
-            size: '3x',
-            style: { color: '#2c3e50' },
-            key: index
-        };
+  const icons = project.iconsList.map((iconObj, index) => {
+    const props = {
+      icon: iconObj.iconTitle,
+      size: '3x',
+      style: { color: '#2c3e50' },
+      key: index,
+    }
 
-        if (iconObj.iconLink) {
-            props.onClick = () => window.open(iconObj.iconLink, '_blank');
-        }
+    if (iconObj.iconLink) {
+      props.onClick = () => window.open(iconObj.iconLink, '_blank')
+    }
 
-        return <FontAwesomeIcon {...props} />;
-    });
+    return <FontAwesomeIcon {...props} />
+  })
 
-
-    return (
-        <section className="project">
-            <div>
-                <div className={styles.titleIcons}>
-                    <h2>{project.projectName}</h2>
-                    <div className={styles.icons}>
-                        {icons}
-                    </div>
-                </div>
-                <a href={project.websiteLink} rel="noreferrer" target="_blank">{project.websiteName}</a>
-                <div className={styles.descriptionContainer}>
-
-
-                    {project.description.map((paragraph, index) => {
-                        return (
-                            < div className={styles.bubble} >
-                                <p key={index}>{paragraph}</p>
-                            </div>)
-                    })}</div>
-                <p> </p>
-                <p> </p>
-                <p style={{ fontSize: '0.7em' }}>
-                    STATUS: {project.status}
-                </p>
-                <br />
-                {project.screenshots &&
-                    <Slideshow screenshots={project.screenshots} />
-                }
-            </div>
-        </section >
-    )
+  return (
+    <section className="project">
+      <div>
+        <div className={styles.titleIcons}>
+          <h2>{project.projectName}</h2>
+          <div className={styles.icons}>{icons}</div>
+        </div>
+        <a href={project.websiteLink} rel="noreferrer" target="_blank">
+          {project.websiteName}
+        </a>
+        <div className={styles.descriptionContainer}>
+          {project.description.map((paragraph, index) => {
+            return (
+              <div className={styles.bubble}>
+                <p key={index}>{paragraph}</p>
+              </div>
+            )
+          })}
+        </div>
+        <p> </p>
+        <p> </p>
+        <p style={{ fontSize: '0.7em' }}>STATUS: {project.status}</p>
+        <br />
+        {project.screenshots && <Slideshow screenshots={project.screenshots} />}
+      </div>
+    </section>
+  )
 }
 
 export default Project

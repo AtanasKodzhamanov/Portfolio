@@ -1,10 +1,7 @@
-
-
-
 .screenshots-container {
   height: 100%;
-  border:1px solid black;
-  border-radius:10px;
+  border: 1px solid black;
+  border-radius: 10px;
   margin-top: 4rem;
   margin-bottom: 3rem;
   padding: 1rem;
@@ -16,14 +13,12 @@
   }
 }
 
-
 @media (max-width: 480px) {
   .screenshots {
     flex-direction: column;
     justify-content: center;
   }
 }
-
 
 .screenshot img {
   max-height: 80vh;

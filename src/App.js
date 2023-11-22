@@ -1,14 +1,13 @@
 import React from 'react'
-import styles from "./App.module.css"
+import styles from './App.module.css'
 import SideHeader from './components/SideHeader'
 import About from './components/About'
 import Projects from './components/Projects'
 import Education from './components/Education'
 import Experience from './components/Experience'
-import "./global.css"
+import './global.css'
 
 const App = () => {
-
   return (
     <div className={styles.pageBody}>
       <div className={styles.contentContainer}>
@@ -20,13 +19,13 @@ const App = () => {
         </div>
 
         <div id="experience">
-          <section >
+          <section>
             <Experience />
           </section>
         </div>
 
         <div id="projects">
-          <section >
+          <section>
             <Projects />
           </section>
         </div>

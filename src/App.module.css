@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
 
-
-
 .pageBody {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin:40px;
+  margin: 40px;
   border: 2px solid var(--primary-color);
   align-items: center;
   box-shadow: 0 0 500px var(--secondary-color);
@@ -16,9 +14,9 @@
   .pageBody {
     display: flex;
     flex-direction: column;
-    margin:0;
-    padding:0;
-    border:none;
+    margin: 0;
+    padding: 0;
+    border: none;
   }
 }
 
@@ -54,12 +52,12 @@
   }
 }
 
-section{
-  margin-bottom:5rem;
+section {
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 768px) {
-  section{
-    margin-bottom:2rem;
+  section {
+    margin-bottom: 2rem;
   }
 }

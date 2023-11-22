@@ -73,12 +73,13 @@ const Education = () => {
         <p>My formal programming education comprises of:</p>
         <ul>
           <li>
-            Software University (SoftUni): multiple 3-month long modules in Python,
-            Django, ReactJS, JavaScript, SQL, HTML and CSS. Software
+            Software University (SoftUni): multiple 3-month long modules in
+            Python, Django, ReactJS, JavaScript, SQL, HTML and CSS. Software
             University (SoftUni) is an educational institution that offers a
             wide range of courses and programs in software development and
-            computer science. All courses are practical and combine lectures from professionals with weekly
-            problem sets and a final exam/project.
+            computer science. All courses are practical and combine lectures
+            from professionals with weekly problem sets and a final
+            exam/project.
           </li>
           <li>Formal training and certifications in SAS and SAS SQL</li>
           <li>

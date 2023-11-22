@@ -19,7 +19,9 @@ const Projects = () => {
           id={project.projectName}
         >
           <Project project={project} />
+          <br></br>
         </section>
+
       ))}
     </Element>
   )

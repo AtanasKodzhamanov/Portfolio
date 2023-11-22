@@ -46,6 +46,9 @@ const Project = ({ project }) => {
         <a href={project.websiteLink} rel="noreferrer" target="_blank">
           {project.websiteName}
         </a>
+        <br />
+        {project.screenshots && <Slideshow screenshots={project.screenshots} />}
+        <br />
         <div className={styles.descriptionContainer}>
           {project.description.map((paragraph, index) => {
             return (
@@ -55,11 +58,9 @@ const Project = ({ project }) => {
             )
           })}
         </div>
-        <p> </p>
-        <p> </p>
-        <p style={{ fontSize: '0.7em' }}>STATUS: {project.status}</p>
         <br />
-        {project.screenshots && <Slideshow screenshots={project.screenshots} />}
+        <p style={{ fontSize: '0.7em' }}>STATUS: {project.status}</p>
+
       </div>
     </section>
   )

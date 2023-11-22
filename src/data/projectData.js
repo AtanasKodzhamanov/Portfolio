@@ -198,6 +198,7 @@ const projectsData = [
     ],
     shortDesc: ['A language-learning app'],
     status: 'ACTIVE DEVELOPMENT',
+    screenshots: ["https://res.cloudinary.com/dxwb5ejff/image/upload/v1700672284/atanas/babylon_iq36as.webp"],
   },
   {
     projectName: 'Edge Of Annihilation II',

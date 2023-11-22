@@ -16,7 +16,9 @@
   .pageBody {
     display: flex;
     flex-direction: column;
-    margin:4px;
+    margin:0;
+    padding:0;
+    border:none;
   }
 }
 
@@ -32,7 +34,7 @@
 @media (max-width: 480px) {
   .contentContainer {
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.3rem;
     max-width: 100%;
   }
 }

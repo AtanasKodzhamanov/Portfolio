@@ -10,7 +10,12 @@ const ExperienceBubble = (props) => {
             </div>
             <h3>{props.company}</h3>
             {props.description.map((description, index) => {
-                return <p key={index}>{description}</p>
+                return (
+                    <>
+                        <p key={index}>{description}</p>
+                        <br></br>
+                    </>
+                )
             })}
         </div>
     )

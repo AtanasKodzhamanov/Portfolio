@@ -61,6 +61,7 @@ const Project = ({ project }) => {
                 <p style={{ fontSize: '0.7em' }}>
                     STATUS: {project.status}
                 </p>
+                <br />
                 {project.screenshots &&
                     <Slideshow screenshots={project.screenshots} />
                 }

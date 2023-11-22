@@ -18,6 +18,14 @@
   transition: 0.2s;
 }
 
+@media screen and (max-width: 768px) {
+  .mobile-nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+}
+
 /* The navigation menu links */
 .mobile-nav a {
   text-decoration: none;

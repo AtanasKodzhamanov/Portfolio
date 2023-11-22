@@ -6,8 +6,8 @@ const experienceData = [
         endDate: "Present",
         description: [
             "DonaDogs is a website that allows users to search for dogs available for adoption in Bulgaria.",
-            "Construct-M is a website for a construction company.",
-            "Internal React tools for a supply chain company.",
+            "Construct-M is a website for a construction consultancy.",
+            "Internal React tools for a supply chain startup.",
         ],
     },
     {

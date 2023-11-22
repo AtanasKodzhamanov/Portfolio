@@ -16,10 +16,10 @@ const Slideshow = ({ screenshots }) => {
                 <div className={styles.buttonsContainer}>
                     <button className={styles.slideshowPrevButton}
                         onClick={() => setIndex((prevIndex) => prevIndex === 0 ? screenshots.length - 1 : prevIndex - 1)}
-                    >&#8592;
+                    ><h1>&#8592;</h1>
                     </button>
                     <button className={styles.slideshowNextButton} onClick={() => setIndex((index + 1) % screenshots.length)}>
-                        &#8594;
+                        <h1>&#8594;</h1>
                     </button>
                 </div>}
         </>

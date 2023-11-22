@@ -36,9 +36,10 @@ const projectsData = [
             },
         ],
         description: [
-            'Inspired by the needs of a dog rescue in a small Bulgarian town, DonaDogs was my first major project using Django. Since its launch in January 2023, the website has had a transformative impact on the rescue center\'s operations. Previously, only a handful of dogs had virtual sponsors, now, nearly all of the dogs are virtually adopted. This surge in sponsorship has solved the shelter\'s ongoing food shortage, enabling them to not only increase the number of dogs they can look after, but also significantly improve the conditions in which these dogs live.',
-
-            'The website content is managed by the shelter through Django\'s admin panel. It allows the shelter to manage the database of dogs, add pictures, descriptions and allocate them in the appropriate category: sick, adopted, new, etc. Through the admin panel, the shelter can also add information boxes under each page and also control visuals such as applying different text/title/background color and the relative text positioning.'
+            'DonaDogs was my first and most impactful project. Since its launch in January 2023, the website has had a transformative effect on the rescue center\'s operations.',
+            "Previously, only a handful of dogs had virtual sponsors, now, nearly all of the dogs are virtually adopted. This surge in sponsorship has solved the shelter\'s ongoing food shortage, enabling them to not only increase the number of dogs they can look after, but also significantly improve the conditions in which these dogs live.",
+            'The website content is managed by the shelter through Django\'s admin panel. It allows the shelter to manage the database of dogs, add pictures, descriptions and allocate them in the appropriate category: sick, adopted, new, etc.',
+            "Through the admin panel, the shelter can also add information boxes under each page and also control visuals such as applying different text/title/background color and the relative text positioning."
         ],
         shortDesc: [
             "A dog rescue website"
@@ -126,10 +127,10 @@ const projectsData = [
             },
         ],
         description: [
-            'Itesica Notes is a note taking app and my first ReactJS project (using Django for backend). The aim of this app was to practice and improve my ReactJS skills while creating a product that can solve a personal need of mine of having a note taking app that I can use to store information on various topics in an easily accessible manner.',
-            'The app allows for note nesting where each note can have multiple children notes. Notes are held into "notebooks" themselves for better organisation.',
-            'The website supports multiple users with each able to add, view, edit and delete their notes.',
-            'The goal is to create a website where users can openly share their notebooks using unique keys. The webapp is in early development with the design, functionality and code being subject to constant change and improvement.',
+            'Itesica Notes is a note taking app (ReactJS and Django) that allows for fast storage and retreval of information.',
+            'Notes can be nested and each note can have multiple children notes. Notes themselves are held into "notebooks" for better organisation.',
+            'The webapp supports multiple users with each able to add, view, edit and delete their notes.',
+            'The goal is to create a website where users can openly share their notebooks using unique keys.',
         ],
         shortDesc: [
             "Note taking webapp"
@@ -157,6 +158,9 @@ const projectsData = [
         ],
         description: [
             "This is a turn-based, 4x, city-builder, rougelite ReactJS game.",
+            "The player has to manage their planetary resources, choose the appropriate buildings and position them strategically on the planet.",
+            "The player has to defend their planet from incoming asteroids and enemy ships.",
+            "Space exploration is also a key aspect of the game. The player can send out ships to explore the galaxy and discover new planets and species.",
         ],
         shortDesc: [
             "A turn-based, 4x, city-builder, rougelite game"

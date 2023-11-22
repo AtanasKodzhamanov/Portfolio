@@ -16,7 +16,7 @@
 }
 
 @media (max-width: 768px) {
-  .aboutLinksContainer {
+  .linksContainer {
     flex-direction: column;
     align-items: flex-start;
     gap: 0px;
@@ -53,6 +53,7 @@
 
 @media (max-width: 768px) {
   .infoParas {
+    display:flex;
     flex-direction: column;
     gap: 0px;
   }
@@ -68,6 +69,17 @@
   background: linear-gradient(to right, #091a0619, #88866e00);
 }
 
+
 .bubble h2{
   padding:3rem;
+}
+
+@media (max-width: 768px) {
+  .bubble {
+    margin:0px;
+    padding:0px;
+  }
+  .bubble h2{
+    padding:0.5rem;
+  }
 }

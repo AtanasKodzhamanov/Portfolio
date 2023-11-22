@@ -43,6 +43,7 @@ const projectsData = [
     shortDesc: ['A dog rescue website'],
     status: 'MAINTENANCE AND IMPROVEMENTS',
     screenshots: [
+      "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675537/atanas/screenshot-2023-11-22-at-172632-655e3f99eaad7_lenwoa.webp",
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1685550390/atanas/11_eilpzm.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1685550390/atanas/22_kiiis0.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1685550390/atanas/33_c8oh3e.webp',
@@ -168,8 +169,10 @@ const projectsData = [
     shortDesc: ['A turn-based, 4x, city-builder, rougelite game'],
     status: 'ACTIVE DEVELOPMENT',
     screenshots: [
-      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.20_x9dsoo.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.45_d1dtb6.webp',
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.20_x9dsoo.webp',
+      "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175440-655e40b46ba24_sjgdbg.webp",
+      "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175444-655e40b45ece2_kqgxwf.webp",
     ],
   },
   {
@@ -227,6 +230,7 @@ const projectsData = [
     status: 'ACTIVE DEVELOPMENT',
     screenshots: [
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.41.02_d9asi8.webp',
+      "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675537/atanas/screenshot-2023-11-22-at-172735-655e3f991ec14_ifwnby.webp"
     ],
   },
   {

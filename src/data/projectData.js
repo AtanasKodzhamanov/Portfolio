@@ -100,6 +100,35 @@ const projectsData = [
     ],
   },
   {
+    projectName: 'Planetary Defence',
+    websiteName: '',
+    websiteLink: '',
+    iconsList: [
+      {
+        iconTitle: faReact,
+        iconLink: null,
+      },
+      {
+        iconTitle: faCss3,
+        iconLink: null,
+      },
+    ],
+    description: [
+      'This is a turn-based, 4x, city-builder, rougelite ReactJS game.',
+      'The player has to manage their planetary resources, choose the appropriate buildings and position them strategically on the planet.',
+      'The player has to defend their planet from incoming asteroids and enemy ships.',
+      'Space exploration is also a key aspect of the game. The player can send out ships to explore the galaxy and discover new planets and species.',
+    ],
+    shortDesc: ['A turn-based, 4x, city-builder, rougelite game'],
+    status: 'ON HOLD',
+    screenshots: [
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.45_d1dtb6.webp',
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.20_x9dsoo.webp',
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175440-655e40b46ba24_sjgdbg.webp',
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175444-655e40b45ece2_kqgxwf.webp',
+    ],
+  },
+  {
     projectName: 'Know Thy Art',
     websiteName: 'www.knowthy.art',
     websiteLink: 'https://www.knowthy.art/',
@@ -147,7 +176,6 @@ const projectsData = [
       'This is a note taking app (ReactJS and Django) that allows for fast storage and retreval of information.',
       'Notes can be nested and each note can have multiple children notes. Notes themselves are held into "notebooks" for better organisation.',
       'The webapp supports multiple users with each able to add, view, edit and delete their notes.',
-      'The goal is to create a website where users can openly share their notebooks using unique keys.',
     ],
     shortDesc: ['Note taking webapp'],
     status: 'PROJECT GRAVEYARD',
@@ -156,7 +184,7 @@ const projectsData = [
     ],
   },
   {
-    projectName: 'Planetary Defence',
+    projectName: 'Language app',
     websiteName: '',
     websiteLink: '',
     iconsList: [
@@ -170,39 +198,8 @@ const projectsData = [
       },
     ],
     description: [
-      'This is a turn-based, 4x, city-builder, rougelite ReactJS game.',
-      'The player has to manage their planetary resources, choose the appropriate buildings and position them strategically on the planet.',
-      'The player has to defend their planet from incoming asteroids and enemy ships.',
-      'Space exploration is also a key aspect of the game. The player can send out ships to explore the galaxy and discover new planets and species.',
-    ],
-    shortDesc: ['A turn-based, 4x, city-builder, rougelite game'],
-    status: 'ON HOLD',
-    screenshots: [
-      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.45_d1dtb6.webp',
-      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.20_x9dsoo.webp',
-      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175440-655e40b46ba24_sjgdbg.webp',
-      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175444-655e40b45ece2_kqgxwf.webp',
-    ],
-  },
-  {
-    projectName: 'Babylon',
-    websiteName: '',
-    websiteLink: '',
-    iconsList: [
-      {
-        iconTitle: faReact,
-        iconLink: null,
-      },
-      {
-        iconTitle: faCss3,
-        iconLink: null,
-      },
-    ],
-    description: [
-      'Babylon (temporary name) is a language-learning app developed using React Native.',
+      'This is a language-learning app developed using React Native.',
       'The app uses flashcards to provide a smooth and hassle-free vocabulary learning experience.',
-      "Babylon's core code is complete and I am currently focusing on improving the design and user experience, adding animations, adding additional features as well as expanding the language content.",
-      'The aim is to publish the app on both the App Store and Google Play.',
     ],
     shortDesc: ['A language-learning app'],
     status: 'ON HOLD',
@@ -253,8 +250,7 @@ const projectsData = [
     description: [
       'Construct-M is a freelance project developed for the needs of an engineering consultancy, built with ReactJS.',
       'The website aims to provide basic information about the company and its services as well as showcase some of the projects they have worked on.',
-      'Each of the pages contains parallax scrolling as well as transition effects. The website is also able to render 3D models that users can inspect, rotate and zoom in.',
-      'The project is in POC stage and pending further development',
+      'The website is in POC stage and pending further development',
     ],
     shortDesc: ['Construction engineering consultancy website'],
     status: 'WAITING FOR CONTENT FROM CLIENT',

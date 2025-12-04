@@ -12,14 +12,14 @@ function SideHeader() {
         <Link to="About" smooth={true} duration={500} offset={-100}>
           <h3>About</h3>
         </Link>
-        <Link to="Projects" smooth={true} duration={500} offset={-100}>
-          <h3>Projects</h3>
-        </Link>
         <Link to="Experience" smooth={true} duration={500} offset={-100}>
           <h3>Experience</h3>
         </Link>
         <Link to="Education" smooth={true} duration={500} offset={-100}>
           <h3>Education</h3>
+        </Link>
+        <Link to="Projects" smooth={true} duration={500} offset={-100}>
+          <h3>Projects</h3>
         </Link>
       </div>
     </div>

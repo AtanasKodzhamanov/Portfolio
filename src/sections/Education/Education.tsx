@@ -32,69 +32,12 @@ const Education = () => {
       <h1 className="special-title">EDUCATION</h1>
       <br></br>
       <div>
-        <h2>Programming</h2>
-        <div className="icons-container">
-          <FontAwesomeIcon
-            icon={faPython}
-            size="5x"
-            style={{ color: '#2c3e50' }}
-          />
-
-          <FontAwesomeIcon
-            icon={faJsSquare}
-            size="5x"
-            style={{ color: '#2c3e50' }}
-          />
-
-          <FontAwesomeIcon
-            icon={faReact}
-            size="5x"
-            style={{ color: '#2c3e50' }}
-          />
-
-          <FontAwesomeIcon
-            icon={faCss3}
-            size="5x"
-            style={{ color: '#2c3e50' }}
-          />
-
-          <FontAwesomeIcon
-            icon={faHtml5}
-            size="5x"
-            style={{ color: '#2c3e50' }}
-          />
-        </div>
-        <p>
-          I have experience with a variety of programming languages, including
-          Python, SAS, SQL, STATA, JavaScript and C#. I have used these
-          languages to develop a range of applications and solve complex
-          problems on both professional and hobby projects.
-        </p>
-        <p>My formal programming education comprises of:</p>
-        <ul>
-          <li>
-            Software University (SoftUni): multiple 3-month long modules in
-            Python, Django, ReactJS, JavaScript, SQL, HTML and CSS. Software
-            University (SoftUni) is an educational institution that offers a
-            wide range of courses and programs in software development and
-            computer science. All courses are practical and combine lectures
-            from professionals with weekly problem sets and a final
-            exam/project.
-          </li>
-          <li>Formal training and certifications in SAS and SAS SQL</li>
-          <li>
-            Online courses, university classes and on the job training in STATA
-          </li>
-          <li>Various other Udemy and LinkedIn programming classes</li>
-        </ul>
-      </div>
-      <br></br>
-      <div>
         <h2>Economics</h2>
         <p>
           I am an Economist by education and have completed both a bachelors and
           a masters degree in economics.
         </p>
+        <br></br>
         <div>
           <div className="education-school-box">
             <div className="tse-image">
@@ -107,6 +50,22 @@ const Education = () => {
               />
             </div>
             <div className="tse-text">
+              <div className="tse-text-second-half">
+                <a
+                  className="hover:underline"
+                  href="https://www.tse-fr.eu/master-emo-international-track"
+                >
+                  Master in Economics of Markets and Organizations (M2)
+                </a>
+                <br></br>
+                <a
+                  className="hover:underline"
+                  href="https://www.tse-fr.eu/masters-international-track"
+                >
+                  Master in Economics - International Track (M1)
+                </a>
+              </div>
+              <br></br>
               <div className="tse-text-first-half">
                 <h3>Toulouse School of Economics</h3>
 
@@ -117,6 +76,7 @@ const Education = () => {
                   training in these subjects, and I had the opportunity to apply
                   my knowledge to real-world case studies and projects.{' '}
                 </p>
+                <br></br>
                 <p>
                   Through my studies, I developed strong analytical and
                   problem-solving skills and gained a better understanding of
@@ -124,19 +84,6 @@ const Education = () => {
                   and understand complex market structures and behaviours. The
                   knowledge and skills I have acquired at Toulouse School of
                   Economics have already proved to be invaluable assets.
-                </p>
-              </div>
-              <div className="tse-text-second-half">
-                <a href="https://www.tse-fr.eu/master-emo-international-track">
-                  Master in Economics of Markets and Organizations (M2)
-                </a>
-                <br></br>
-                <a href="https://www.tse-fr.eu/masters-international-track">
-                  Master in Economics - International Track (M1)
-                </a>
-                <p>
-                  Skills: Industrial Economics · Python · R · STATA ·
-                  Econometrics
                 </p>
               </div>
             </div>
@@ -149,6 +96,17 @@ const Education = () => {
           <div className="education-school-box">
             <div className="rhul-text">
               <div className="rhul-text-first-half">
+                <div className="rhul-text-second-half">
+                  <a
+                    className="hover:underline"
+                    href="https://www.royalholloway.ac.uk/studying-here/undergraduate/economics/economics/"
+                  >
+                    BSc Economics
+                  </a>
+                </div>
+                <br></br>
+                <br></br>
+
                 <h3>Royal Holloway, University Of London</h3>
                 <p>
                   I had the pleasure of studying at Royal Holloway, where I
@@ -158,12 +116,6 @@ const Education = () => {
                   decisions. I also studied micro- and macroeconomics, finance,
                   and game theory, among other topics.
                 </p>
-              </div>
-              <div className="rhul-text-second-half">
-                <a href="https://www.royalholloway.ac.uk/studying-here/undergraduate/economics/economics/">
-                  BSc Economics
-                </a>
-                <p>Skills: Economics · Econometrics · STATA</p>
               </div>
             </div>
             <div className="rhul-image">
@@ -191,6 +143,12 @@ const Education = () => {
             />
           </div>
           <div className="finance-text">
+            <a
+              className="hover:underline"
+              href="https://www.cfainstitute.org/en/programs/cfa/curriculum"
+            >
+              CFA curriculum
+            </a>
             <h3>Passed all levels of CFA</h3>
             <p>
               I have completed all three levels of the Chartered Financial
@@ -203,9 +161,6 @@ const Education = () => {
               informed, evidence-based decisions. Overall, the CFA program has
               been a valuable and enriching experience.
             </p>
-            <a href="https://www.cfainstitute.org/en/programs/cfa/curriculum">
-              CFA curriculum
-            </a>
           </div>
         </div>
       </div>

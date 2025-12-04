@@ -1,5 +1,4 @@
 import {
-  faGithub,
   faPython,
   faJsSquare,
   faReact,
@@ -54,10 +53,6 @@ const projectsData = [
       {
         iconTitle: faHtml5,
         iconLink: null,
-      },
-      {
-        iconTitle: faGithub,
-        iconLink: 'https://github.com/AtanasKodzhamanov/www.DonaDogs.org',
       },
     ],
     description: [
@@ -117,10 +112,6 @@ const projectsData = [
         iconTitle: faCss3,
         iconLink: null,
       },
-      {
-        iconTitle: faGithub,
-        iconLink: 'https://github.com/AtanasKodzhamanov/www.KnowThy.Art',
-      },
     ],
     description: [
       'This is a guessing game where players try to identify the artist whose style inspired a newly created painting.',
@@ -135,7 +126,7 @@ const projectsData = [
     ],
   },
   {
-    projectName: 'Itesica Notes',
+    projectName: 'Notes App',
     websiteName: '',
     websiteLink: '',
     iconsList: [
@@ -151,13 +142,9 @@ const projectsData = [
         iconTitle: faCss3,
         iconLink: null,
       },
-      {
-        iconTitle: faGithub,
-        iconLink: 'https://github.com/AtanasKodzhamanov/ItesicaNotes',
-      },
     ],
     description: [
-      'Itesica Notes is a note taking app (ReactJS and Django) that allows for fast storage and retreval of information.',
+      'This is a note taking app (ReactJS and Django) that allows for fast storage and retreval of information.',
       'Notes can be nested and each note can have multiple children notes. Notes themselves are held into "notebooks" for better organisation.',
       'The webapp supports multiple users with each able to add, view, edit and delete their notes.',
       'The goal is to create a website where users can openly share their notebooks using unique keys.',
@@ -180,10 +167,6 @@ const projectsData = [
       {
         iconTitle: faCss3,
         iconLink: null,
-      },
-      {
-        iconTitle: faGithub,
-        iconLink: '',
       },
     ],
     description: [
@@ -214,10 +197,6 @@ const projectsData = [
         iconTitle: faCss3,
         iconLink: null,
       },
-      {
-        iconTitle: faGithub,
-        iconLink: '',
-      },
     ],
     description: [
       'Babylon (temporary name) is a language-learning app developed using React Native.',
@@ -232,7 +211,7 @@ const projectsData = [
     ],
   },
   {
-    projectName: 'Edge Of Annihilation II',
+    projectName: 'No name game',
     websiteName: '',
     websiteLink: '',
     iconsList: [
@@ -244,13 +223,9 @@ const projectsData = [
         iconTitle: faCss3,
         iconLink: null,
       },
-      {
-        iconTitle: faGithub,
-        iconLink: '',
-      },
     ],
     description: [
-      'EOA is a turn-based rougelike game developed using ReactJS.',
+      'This is a turn-based rougelike game developed using ReactJS.',
       'The player has to destroy the enemy base while defending their own.',
       'To do so the player has to manage their resources, select the appropriate units and position them strategically on the battlefield.',
     ],
@@ -274,16 +249,12 @@ const projectsData = [
         iconTitle: faCss3,
         iconLink: null,
       },
-      {
-        iconTitle: faGithub,
-        iconLink: 'https://github.com/AtanasKodzhamanov/www.construct-m.com',
-      },
     ],
     description: [
       'Construct-M is a freelance project developed for the needs of an engineering consultancy, built with ReactJS.',
       'The website aims to provide basic information about the company and its services as well as showcase some of the projects they have worked on.',
       'Each of the pages contains parallax scrolling as well as transition effects. The website is also able to render 3D models that users can inspect, rotate and zoom in.',
-      'The project is temporary paused until the client provides the necessary content such as descriptions, images and 3D models.',
+      'The project is in POC stage and pending further development',
     ],
     shortDesc: ['Construction engineering consultancy website'],
     status: 'WAITING FOR CONTENT FROM CLIENT',

@@ -1,15 +1,40 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from '../About.module.css'
+import {
+  faJsSquare,
+  faPython,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
 const AboutSection = () => {
   return (
     <div className="flex flex-col gap-8 w-full ">
       <h1>Hey, my name is Atanas</h1>
       {/* Top Row */}
       <div className="grid grid-cols-2 gap-8 w-full ">
-        <div className="bubble flex items-center justify-center text-center">
+        <div className="bubble flex flex-col items-center justify-center text-center">
           <h2>
             Full-stack <strong>React</strong> and <strong>Python</strong>{' '}
             developer
           </h2>
+          <div className="icons-container">
+            <FontAwesomeIcon
+              icon={faPython}
+              size="5x"
+              style={{ color: '#2c3e50' }}
+            />
+
+            <FontAwesomeIcon
+              icon={faJsSquare}
+              size="5x"
+              style={{ color: '#2c3e50' }}
+            />
+
+            <FontAwesomeIcon
+              icon={faReact}
+              size="5x"
+              style={{ color: '#2c3e50' }}
+            />
+          </div>
         </div>
         <div className="bubble flex items-center justify-center text-center">
           <h2>

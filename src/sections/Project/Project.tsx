@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Slideshow from '../../components/Slideshow'
+import Masonry from 'react-masonry-css'
+import Slideshow from '../../components/SlideShow/Slideshow'
 import styles from './Project.module.css'
 /* PROJECT STRUCTURE
 {
@@ -42,22 +43,31 @@ const Project = ({ project }) => {
         <div className={styles.titleIcons}>
           <h2>{project.projectName}</h2>
           <div className={styles.icons}>{icons}</div>
-        </div>
-        <a href={project.websiteLink} rel="noreferrer" target="_blank">
+        </div>{' '}
+        <a
+          className="hover:underline"
+          href={project.websiteLink}
+          rel="noreferrer"
+          target="_blank"
+        >
           {project.websiteName}
         </a>
         <br />
         {project.screenshots && <Slideshow screenshots={project.screenshots} />}
         <br />
-        <div className={styles.descriptionContainer}>
+        <Masonry
+          breakpointCols={{ default: 2, 768: 1 }}
+          className="flex w-auto -ml-4"
+          columnClassName="pl-4 bg-clip-padding"
+        >
           {project.description.map((paragraph, index) => {
             return (
-              <div className="bubble">
-                <p key={index}>{paragraph}</p>
+              <div className="mb-4 bubble" key={index}>
+                <p>{paragraph}</p>
               </div>
             )
           })}
-        </div>
+        </Masonry>
         <br />
         <p style={{ fontSize: '0.7em' }}>STATUS: {project.status}</p>
       </div>

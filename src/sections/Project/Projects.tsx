@@ -20,19 +20,6 @@ const Projects = () => {
         >
           <Project project={project} />
           <br></br>
-          <div
-            className="bubble"
-            style={{ display: 'flex', justifyContent: 'center' }}
-          >
-            <a
-              className={styles.link}
-              target="_blank"
-              rel="noreferrer"
-              href="https://store.steampowered.com/app/2797630/Walks_Of_Life/"
-            >
-              Wishlist <strong>Walks of Life</strong> on Steam!
-            </a>
-          </div>
         </section>
       ))}
     </Element>

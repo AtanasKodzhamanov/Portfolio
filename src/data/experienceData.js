@@ -1,25 +1,15 @@
 const experienceData = [
   {
-    jobTitle: 'Software Developer',
-    company: 'Freelance',
-    startDate: '2023',
+    jobTitle: 'Full Stack Developer',
+    company: 'Akkodis (for a major freight company)',
+    startDate: '2024',
     endDate: 'Present',
     description: [
-      'DonaDogs is a website that allows users to search for dogs available for adoption in Bulgaria.',
-      'Construct-M is a website for a construction consultancy.',
-      'Internal React tools for a supply chain startup.',
-    ],
-  },
-  {
-    jobTitle: 'SAS Programmer',
-    company: 'Computershare UK and Base 3 Systems',
-    startDate: '2016',
-    endDate: '2018',
-    description: [
-      'Delivered and managed adhoc and regular MI reports for clients across the business using SAS Enterprise Guide, SAS DI Studio, SQL and VBA.',
-      'Automated and made the production of weekly reports more efficient using Excel VBA.',
-      'Extensive coding and debugging of SAS and SQL code.',
-      'Ensured that SQL and SAS code ran as efficiently as possible to accommodate the large datasets being handled.',
+      'Designed and developed a full-stack web application that allows freight traders to match available cargo with available vessels and decide on trades. It is the most used internal tool by the traders in the company.',
+      'Designed and developed a full-stack web application that visualises various prices and metrics at a 1-minute frequency and is the primary source of pricing information for the traders.',
+      'Designed and developed a full-stack web application that shows key vessel performance indicators for the entire world fleet, allowing traders to verify stated vessel performance against actual performance.',
+      'Maintained and improved an older internal web application (React, ExpressJS) used for monitoring freight prices and used by the freight shipping traders. Added new features, and fixed architectural issues to improve performance and user experience.',
+      'Primary tech: React, Python',
     ],
   },
   {
@@ -35,6 +25,18 @@ const experienceData = [
       "I was part of the team defending Visa against a damages claim raise by Sainsbury's, focusing on the setting of multilateral interchange fees.",
       'Collaborating with a major car manufacturing company, I conducted overcharge pass-on analyses and built a damages estimation model in Stata and Excel to address a damages claim related to a car part cartel.',
       'I offered assistance to a toy manufacturer facing an abuse of dominance foreclosure case.',
+    ],
+  },
+  {
+    jobTitle: 'SAS Programmer',
+    company: 'Computershare UK and Base 3 Systems',
+    startDate: '2016',
+    endDate: '2018',
+    description: [
+      'Delivered and managed adhoc and regular MI reports for clients across the business using SAS Enterprise Guide, SAS DI Studio, SQL and VBA.',
+      'Automated and made the production of weekly reports more efficient using Excel VBA.',
+      'Extensive coding and debugging of SAS and SQL code.',
+      'Ensured that SQL and SAS code ran as efficiently as possible to accommodate the large datasets being handled.',
     ],
   },
 ]

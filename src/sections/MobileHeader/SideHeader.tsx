@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import './SideHeader.css'
-import '../global.css'
+import '../../global.css'
 
 function SideHeader() {
   const [activeLink, setActiveLink] = useState('')

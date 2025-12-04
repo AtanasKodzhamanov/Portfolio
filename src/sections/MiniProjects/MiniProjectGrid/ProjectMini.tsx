@@ -1,5 +1,5 @@
 import styles from './ProjectMini.module.css'
-import '../global.css'
+import '@/global.css'
 import { Link } from 'react-scroll'
 
 const ProjectMini = ({ project, targetId }) => {
@@ -11,7 +11,7 @@ const ProjectMini = ({ project, targetId }) => {
       offset={-50}
       className={styles.projectMini}
     >
-      <section>
+      <div>
         <div className={styles.projectNameAndDesc}>
           <h2>{project.projectName}</h2>
           <p>{project.shortDesc}</p>
@@ -24,7 +24,7 @@ const ProjectMini = ({ project, targetId }) => {
             />
           )}
         </div>
-      </section>
+      </div>
     </Link>
   )
 }

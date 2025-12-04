@@ -58,19 +58,6 @@
   }
 }
 
-.bubble {
-  border: 2px solid black;
-  border-radius: 10px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  background: linear-gradient(to right, #091a0619, #88866e00);
-}
-
-.bubble h2 {
-  padding: 3rem;
-}
-
 @media (max-width: 768px) {
   .bubble {
     margin-bottom: 0.5rem;

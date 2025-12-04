@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@layer components {
+  .bubble {
+    /* Layout */
+    @apply flex items-center justify-center p-8;
+
+    /* Borders */
+    @apply border-2 border-black rounded-lg;
+
+    /* Container coloring */
+    @apply bg-gradient-to-r from-[#091a0619] to-[#88866e00];
+  }
 }

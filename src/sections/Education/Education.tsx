@@ -12,7 +12,7 @@ import {
   faHtml5,
 } from '@fortawesome/free-brands-svg-icons'
 import { Element } from 'react-scroll'
-import useGoogleAnalytics from './useGoogleAnalytics'
+import useGoogleAnalytics from '../../functions/useGoogleAnalytics'
 
 library.add(
   faPython,

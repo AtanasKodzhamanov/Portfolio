@@ -9,9 +9,35 @@ import {
 
 const projectsData = [
   {
+    projectName: 'Bilingual Crosswords',
+    websiteName: 'Steam Store Page',
+    websiteLink:
+      'https://store.steampowered.com/app/3220820/Bilingual_Crosswords/',
+    iconsList: [
+      {
+        iconTitle: faReact,
+        iconLink: null,
+      },
+      {
+        iconTitle: faPython,
+        iconLink: null,
+      },
+    ],
+    description: [
+      'Bilingual Crosswords is an educational game, motivated by hate for Duolingo, designed to help users improve their vocabulary in a foreign language through solving crossword puzzles.',
+      'It offers multiple languages, Anki-like review system, and various dopamine boosting mechanics such as rewards, collectibles, and achievements to enhance user engagement and motivation.',
+      'The demo version is available on Steam.',
+    ],
+    shortDesc: ['An educational crossword puzzle game'],
+    status: 'DEMO AVAILABLE, FULL GAME COMING SOONish',
+    screenshots: [
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1764367599/atanas/gameplay_gfbkik.webp',
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1764367599/atanas/gifts_vcdgsx.webp',
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1764367599/atanas/collecttions_nb9nqv.webp',
+    ],
+  },
+  {
     projectName: 'DonaDogs',
-    websiteName: 'www.donadogs.org',
-    websiteLink: 'https://www.donadogs.com/en/',
     iconsList: [
       {
         iconTitle: faPython,
@@ -41,9 +67,9 @@ const projectsData = [
       'Through the admin panel, the shelter can also add information boxes under each page and also control visuals such as applying different text/title/background color and the relative text positioning.',
     ],
     shortDesc: ['A dog rescue website'],
-    status: 'MAINTENANCE AND IMPROVEMENTS',
+    status: 'THE WEBSITE IS NO LONGER ACTIVE DUE TO CHANGE IN MANAGEMENT',
     screenshots: [
-      "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675537/atanas/screenshot-2023-11-22-at-172632-655e3f99eaad7_lenwoa.webp",
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675537/atanas/screenshot-2023-11-22-at-172632-655e3f99eaad7_lenwoa.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1685550390/atanas/11_eilpzm.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1685550390/atanas/22_kiiis0.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1685550390/atanas/33_c8oh3e.webp',
@@ -101,7 +127,7 @@ const projectsData = [
       'The game is built with React for the frontend and Django for the APIs. The data is stored in a PostgreSQL database that keeps the artist information and user scores.',
     ],
     shortDesc: ['An educational guessing game'],
-    status: 'MAINTENANCE AND IMPROVEMENTS',
+    status: 'PROJECT GRAVEYARD',
     screenshots: [
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689992137/atanas/Screenshot_2023-07-22_at_03.12.22_ljxvpr.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689992137/atanas/Screenshot_2023-07-22_at_03.11.44_wsxude.webp',
@@ -137,7 +163,7 @@ const projectsData = [
       'The goal is to create a website where users can openly share their notebooks using unique keys.',
     ],
     shortDesc: ['Note taking webapp'],
-    status: 'UNDER DEVELOPMENT',
+    status: 'PROJECT GRAVEYARD',
     screenshots: [
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.37.04_c7id0e.webp',
     ],
@@ -167,12 +193,12 @@ const projectsData = [
       'Space exploration is also a key aspect of the game. The player can send out ships to explore the galaxy and discover new planets and species.',
     ],
     shortDesc: ['A turn-based, 4x, city-builder, rougelite game'],
-    status: 'ACTIVE DEVELOPMENT',
+    status: 'ON HOLD',
     screenshots: [
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.45_d1dtb6.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.42.20_x9dsoo.webp',
-      "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175440-655e40b46ba24_sjgdbg.webp",
-      "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175444-655e40b45ece2_kqgxwf.webp",
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175440-655e40b46ba24_sjgdbg.webp',
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675780/atanas/screenshot-2023-11-22-at-175444-655e40b45ece2_kqgxwf.webp',
     ],
   },
   {
@@ -200,8 +226,10 @@ const projectsData = [
       'The aim is to publish the app on both the App Store and Google Play.',
     ],
     shortDesc: ['A language-learning app'],
-    status: 'ACTIVE DEVELOPMENT',
-    screenshots: ["https://res.cloudinary.com/dxwb5ejff/image/upload/v1700672284/atanas/babylon_iq36as.webp"],
+    status: 'ON HOLD',
+    screenshots: [
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700672284/atanas/babylon_iq36as.webp',
+    ],
   },
   {
     projectName: 'Edge Of Annihilation II',
@@ -227,10 +255,10 @@ const projectsData = [
       'To do so the player has to manage their resources, select the appropriate units and position them strategically on the battlefield.',
     ],
     shortDesc: ['A turn-based rougelike game'],
-    status: 'ACTIVE DEVELOPMENT',
+    status: 'PROJECT GRAVEYARD',
     screenshots: [
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1691869489/atanas/Screenshot_2023-08-12_at_20.41.02_d9asi8.webp',
-      "https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675537/atanas/screenshot-2023-11-22-at-172735-655e3f991ec14_ifwnby.webp"
+      'https://res.cloudinary.com/dxwb5ejff/image/upload/v1700675537/atanas/screenshot-2023-11-22-at-172735-655e3f991ec14_ifwnby.webp',
     ],
   },
   {
@@ -258,7 +286,7 @@ const projectsData = [
       'The project is temporary paused until the client provides the necessary content such as descriptions, images and 3D models.',
     ],
     shortDesc: ['Construction engineering consultancy website'],
-    status: 'ON HOLD',
+    status: 'WAITING FOR CONTENT FROM CLIENT',
     screenshots: [
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.24.36_kk1vrn.webp',
       'https://res.cloudinary.com/dxwb5ejff/image/upload/v1689993525/atanas/Screenshot_2023-07-22_at_03.24.58_tugemb.webp',

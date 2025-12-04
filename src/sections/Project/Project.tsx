@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Slideshow from './Slideshow'
+import Slideshow from '../../components/Slideshow'
 import styles from './Project.module.css'
 /* PROJECT STRUCTURE
 {
@@ -52,7 +52,7 @@ const Project = ({ project }) => {
         <div className={styles.descriptionContainer}>
           {project.description.map((paragraph, index) => {
             return (
-              <div className={styles.bubble}>
+              <div className="bubble">
                 <p key={index}>{paragraph}</p>
               </div>
             )
@@ -60,7 +60,6 @@ const Project = ({ project }) => {
         </div>
         <br />
         <p style={{ fontSize: '0.7em' }}>STATUS: {project.status}</p>
-
       </div>
     </section>
   )

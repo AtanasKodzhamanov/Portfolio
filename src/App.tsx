@@ -8,8 +8,8 @@ import MiniProjects from '@/sections/MiniProjects/MiniProjects'
 
 const App = () => {
   return (
-    <div className="relative flex flex-col items-center m-10 border-4 border-primary-color shadow-[0_0_500px_var(--secondary-color)]">
-      <div className="max-w-[1400px] flex flex-col p-8 gap-10">
+    <div className="relative flex flex-col items-center m-0 md:m-10 border-4 border-primary-color shadow-none md:shadow-[0_0_500px_var(--secondary-color)]">
+      <div className="max-w-[1400px] flex flex-col p-1 md:p-8 gap-10">
         <SideHeader />
         <section id="about">
           <About />

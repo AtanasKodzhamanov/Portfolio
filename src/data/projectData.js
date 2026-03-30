@@ -235,8 +235,8 @@ const projectsData = [
   },
   {
     projectName: 'Construct-M',
-    websiteName: 'www.construct-m.com',
-    websiteLink: 'https://www.construct-m.com',
+    websiteName: '',
+    websiteLink: '',
     iconsList: [
       {
         iconTitle: faReact,

@@ -14,4 +14,14 @@ Repeat this process each time you make updates to your main branch and want to p
 
 
 RAILWAY DEPLOYMENT
-https://help.railway.app/project-help/f9v3gkPQRy4UShk5SnoPDH/getting-your-create-react-app-running-on-railway/qHRsgxa5n57xLp1yVgk9fP
+Railway now uses Railpack by default. This project keeps the deployment config in railway.json so the build and start commands are controlled from the repo.
+
+For this Vite app:
+Build: npm run build
+Start: npm run start
+Runtime port: ${PORT:-3000}
+
+Docs:
+https://docs.railway.com/builds/railpack
+https://docs.railway.com/config-as-code/reference
+https://docs.railway.com/guides/react
